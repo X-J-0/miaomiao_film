@@ -1,0 +1,2628 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\Develop\\node.exe',
+1 verbose cli   'C:\\Users\\86183\\XXX\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-session'
+1 verbose cli ]
+2 info using npm@6.14.2
+3 info using node@v12.12.0
+4 verbose npm-session a85ce4079a06a94b
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/express-session 2715ms
+8 http fetch GET 200 https://registry.npmjs.org/express-session/-/express-session-1.17.0.tgz 1542ms
+9 silly pacote range manifest for express-session@^1.17.0 fetched in 4298ms
+10 timing stage:loadCurrentTree Completed in 4958ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 3ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 59ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule express-session@1.17.0 checking installable status
+18 silly removeObsoleteDep removing express-session@1.17.0 from the tree as its been replaced by a newer version or is no longer required
+19 silly removeObsoleteDep removing cookie@0.4.0 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing cookie-signature@1.0.6 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing depd@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing on-headers@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing parseurl@1.3.3 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing safe-buffer@5.2.0 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing uid-safe@2.1.5 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing random-bytes@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+28 http fetch GET 200 https://registry.npmjs.org/depd 1330ms
+29 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 921ms
+30 silly pacote range manifest for depd@~2.0.0 fetched in 2275ms
+31 silly resolveWithNewModule depd@2.0.0 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/safe-buffer 2445ms (from cache)
+33 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.0.tgz 6ms (from cache)
+34 silly pacote version manifest for safe-buffer@5.2.0 fetched in 2460ms
+35 silly resolveWithNewModule safe-buffer@5.2.0 checking installable status
+36 silly pacote range manifest for depd@~2.0.0 fetched in 2ms
+37 silly resolveWithNewModule depd@2.0.0 checking installable status
+38 silly pacote version manifest for safe-buffer@5.2.0 fetched in 3ms
+39 silly resolveWithNewModule safe-buffer@5.2.0 checking installable status
+40 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2636ms
+41 timing stage:loadIdealTree Completed in 2747ms
+42 silly currentTree miaomiaoserver@0.0.0
+42 silly currentTree +-- accepts@1.3.7
+42 silly currentTree | +-- mime-types@2.1.26
+42 silly currentTree | | `-- mime-db@1.43.0
+42 silly currentTree | `-- negotiator@0.6.2
+42 silly currentTree +-- accepts@1.3.7
+42 silly currentTree +-- array-flatten@1.1.1
+42 silly currentTree +-- array-flatten@1.1.1
+42 silly currentTree +-- basic-auth@2.0.1
+42 silly currentTree | `-- safe-buffer@5.1.2
+42 silly currentTree +-- basic-auth@2.0.1
+42 silly currentTree +-- body-parser@1.18.3
+42 silly currentTree | +-- bytes@3.0.0
+42 silly currentTree | +-- content-type@1.0.4
+42 silly currentTree | +-- debug@2.6.9
+42 silly currentTree | | `-- ms@2.0.0
+42 silly currentTree | +-- depd@1.1.2
+42 silly currentTree | +-- http-errors@1.6.3
+42 silly currentTree | | +-- depd@1.1.2
+42 silly currentTree | | +-- inherits@2.0.3
+42 silly currentTree | | +-- setprototypeof@1.1.0
+42 silly currentTree | | `-- statuses@1.5.0
+42 silly currentTree | +-- iconv-lite@0.4.23
+42 silly currentTree | | `-- safer-buffer@2.1.2
+42 silly currentTree | +-- on-finished@2.3.0
+42 silly currentTree | | `-- ee-first@1.1.1
+42 silly currentTree | +-- qs@6.5.2
+42 silly currentTree | +-- raw-body@2.3.3
+42 silly currentTree | | +-- bytes@3.0.0
+42 silly currentTree | | +-- http-errors@1.6.3
+42 silly currentTree | | +-- iconv-lite@0.4.23
+42 silly currentTree | | `-- unpipe@1.0.0
+42 silly currentTree | `-- type-is@1.6.18
+42 silly currentTree |   +-- media-typer@0.3.0
+42 silly currentTree |   `-- mime-types@2.1.26
+42 silly currentTree +-- body-parser@1.18.3
+42 silly currentTree +-- bytes@3.0.0
+42 silly currentTree +-- bytes@3.0.0
+42 silly currentTree +-- content-disposition@0.5.2
+42 silly currentTree +-- content-disposition@0.5.2
+42 silly currentTree +-- content-type@1.0.4
+42 silly currentTree +-- content-type@1.0.4
+42 silly currentTree +-- cookie-parser@1.4.5
+42 silly currentTree | +-- cookie-signature@1.0.6
+42 silly currentTree | `-- cookie@0.4.0
+42 silly currentTree +-- cookie-parser@1.4.5
+42 silly currentTree +-- cookie-signature@1.0.6
+42 silly currentTree +-- cookie-signature@1.0.6
+42 silly currentTree +-- cookie@0.3.1
+42 silly currentTree +-- cookie@0.4.0
+42 silly currentTree +-- cookie@0.4.0
+42 silly currentTree +-- debug@2.6.9
+42 silly currentTree +-- debug@2.6.9
+42 silly currentTree +-- depd@1.1.2
+42 silly currentTree +-- depd@1.1.2
+42 silly currentTree +-- depd@2.0.0
+42 silly currentTree +-- destroy@1.0.4
+42 silly currentTree +-- destroy@1.0.4
+42 silly currentTree +-- ee-first@1.1.1
+42 silly currentTree +-- ee-first@1.1.1
+42 silly currentTree +-- ejs@2.6.2
+42 silly currentTree +-- ejs@2.6.2
+42 silly currentTree +-- encodeurl@1.0.2
+42 silly currentTree +-- encodeurl@1.0.2
+42 silly currentTree +-- escape-html@1.0.3
+42 silly currentTree +-- escape-html@1.0.3
+42 silly currentTree +-- etag@1.8.1
+42 silly currentTree +-- etag@1.8.1
+42 silly currentTree +-- express-session@1.17.0
+42 silly currentTree | +-- cookie-signature@1.0.6
+42 silly currentTree | +-- cookie@0.4.0
+42 silly currentTree | +-- debug@2.6.9
+42 silly currentTree | +-- depd@2.0.0
+42 silly currentTree | +-- on-headers@1.0.2
+42 silly currentTree | +-- parseurl@1.3.3
+42 silly currentTree | +-- safe-buffer@5.2.0
+42 silly currentTree | `-- uid-safe@2.1.5
+42 silly currentTree |   `-- random-bytes@1.0.0
+42 silly currentTree +-- express-session@1.17.0
+42 silly currentTree +-- express@4.16.4
+42 silly currentTree | +-- accepts@1.3.7
+42 silly currentTree | +-- array-flatten@1.1.1
+42 silly currentTree | +-- body-parser@1.18.3
+42 silly currentTree | +-- content-disposition@0.5.2
+42 silly currentTree | +-- content-type@1.0.4
+42 silly currentTree | +-- cookie-signature@1.0.6
+42 silly currentTree | +-- cookie@0.3.1
+42 silly currentTree | +-- debug@2.6.9
+42 silly currentTree | +-- depd@1.1.2
+42 silly currentTree | +-- encodeurl@1.0.2
+42 silly currentTree | +-- escape-html@1.0.3
+42 silly currentTree | +-- etag@1.8.1
+42 silly currentTree | +-- finalhandler@1.1.1
+42 silly currentTree | | +-- debug@2.6.9
+42 silly currentTree | | +-- encodeurl@1.0.2
+42 silly currentTree | | +-- escape-html@1.0.3
+42 silly currentTree | | +-- on-finished@2.3.0
+42 silly currentTree | | +-- parseurl@1.3.3
+42 silly currentTree | | +-- statuses@1.4.0
+42 silly currentTree | | `-- unpipe@1.0.0
+42 silly currentTree | +-- fresh@0.5.2
+42 silly currentTree | +-- merge-descriptors@1.0.1
+42 silly currentTree | +-- methods@1.1.2
+42 silly currentTree | +-- on-finished@2.3.0
+42 silly currentTree | +-- parseurl@1.3.3
+42 silly currentTree | +-- path-to-regexp@0.1.7
+42 silly currentTree | +-- proxy-addr@2.0.6
+42 silly currentTree | | +-- forwarded@0.1.2
+42 silly currentTree | | `-- ipaddr.js@1.9.1
+42 silly currentTree | +-- qs@6.5.2
+42 silly currentTree | +-- range-parser@1.2.1
+42 silly currentTree | +-- safe-buffer@5.1.2
+42 silly currentTree | +-- send@0.16.2
+42 silly currentTree | | +-- debug@2.6.9
+42 silly currentTree | | +-- depd@1.1.2
+42 silly currentTree | | +-- destroy@1.0.4
+42 silly currentTree | | +-- encodeurl@1.0.2
+42 silly currentTree | | +-- escape-html@1.0.3
+42 silly currentTree | | +-- etag@1.8.1
+42 silly currentTree | | +-- fresh@0.5.2
+42 silly currentTree | | +-- http-errors@1.6.3
+42 silly currentTree | | +-- mime@1.4.1
+42 silly currentTree | | +-- ms@2.0.0
+42 silly currentTree | | +-- on-finished@2.3.0
+42 silly currentTree | | +-- range-parser@1.2.1
+42 silly currentTree | | `-- statuses@1.4.0
+42 silly currentTree | +-- serve-static@1.13.2
+42 silly currentTree | | +-- encodeurl@1.0.2
+42 silly currentTree | | +-- escape-html@1.0.3
+42 silly currentTree | | +-- parseurl@1.3.3
+42 silly currentTree | | `-- send@0.16.2
+42 silly currentTree | +-- setprototypeof@1.1.0
+42 silly currentTree | +-- statuses@1.4.0
+42 silly currentTree | +-- type-is@1.6.18
+42 silly currentTree | +-- utils-merge@1.0.1
+42 silly currentTree | `-- vary@1.1.2
+42 silly currentTree +-- express@4.16.4
+42 silly currentTree +-- finalhandler@1.1.1
+42 silly currentTree +-- finalhandler@1.1.1
+42 silly currentTree +-- forwarded@0.1.2
+42 silly currentTree +-- forwarded@0.1.2
+42 silly currentTree +-- fresh@0.5.2
+42 silly currentTree +-- fresh@0.5.2
+42 silly currentTree +-- http-errors@1.6.3
+42 silly currentTree +-- http-errors@1.6.3
+42 silly currentTree +-- iconv-lite@0.4.23
+42 silly currentTree +-- iconv-lite@0.4.23
+42 silly currentTree +-- inherits@2.0.3
+42 silly currentTree +-- inherits@2.0.3
+42 silly currentTree +-- ipaddr.js@1.9.1
+42 silly currentTree +-- ipaddr.js@1.9.1
+42 silly currentTree +-- media-typer@0.3.0
+42 silly currentTree +-- media-typer@0.3.0
+42 silly currentTree +-- merge-descriptors@1.0.1
+42 silly currentTree +-- merge-descriptors@1.0.1
+42 silly currentTree +-- methods@1.1.2
+42 silly currentTree +-- methods@1.1.2
+42 silly currentTree +-- mime-db@1.43.0
+42 silly currentTree +-- mime-db@1.43.0
+42 silly currentTree +-- mime-types@2.1.26
+42 silly currentTree +-- mime-types@2.1.26
+42 silly currentTree +-- mime@1.4.1
+42 silly currentTree +-- mime@1.4.1
+42 silly currentTree +-- morgan@1.9.1
+42 silly currentTree | +-- basic-auth@2.0.1
+42 silly currentTree | +-- debug@2.6.9
+42 silly currentTree | +-- depd@1.1.2
+42 silly currentTree | +-- on-finished@2.3.0
+42 silly currentTree | `-- on-headers@1.0.2
+42 silly currentTree +-- morgan@1.9.1
+42 silly currentTree +-- ms@2.0.0
+42 silly currentTree +-- ms@2.0.0
+42 silly currentTree +-- negotiator@0.6.2
+42 silly currentTree +-- negotiator@0.6.2
+42 silly currentTree +-- nodemailer@6.4.6
+42 silly currentTree +-- nodemailer@6.4.6
+42 silly currentTree +-- on-finished@2.3.0
+42 silly currentTree +-- on-finished@2.3.0
+42 silly currentTree +-- on-headers@1.0.2
+42 silly currentTree +-- on-headers@1.0.2
+42 silly currentTree +-- parseurl@1.3.3
+42 silly currentTree +-- parseurl@1.3.3
+42 silly currentTree +-- path-to-regexp@0.1.7
+42 silly currentTree +-- path-to-regexp@0.1.7
+42 silly currentTree +-- proxy-addr@2.0.6
+42 silly currentTree +-- proxy-addr@2.0.6
+42 silly currentTree +-- qs@6.5.2
+42 silly currentTree +-- qs@6.5.2
+42 silly currentTree +-- random-bytes@1.0.0
+42 silly currentTree +-- random-bytes@1.0.0
+42 silly currentTree +-- range-parser@1.2.1
+42 silly currentTree +-- range-parser@1.2.1
+42 silly currentTree +-- raw-body@2.3.3
+42 silly currentTree +-- raw-body@2.3.3
+42 silly currentTree +-- safe-buffer@5.1.2
+42 silly currentTree +-- safe-buffer@5.1.2
+42 silly currentTree +-- safe-buffer@5.2.0
+42 silly currentTree +-- safer-buffer@2.1.2
+42 silly currentTree +-- safer-buffer@2.1.2
+42 silly currentTree +-- send@0.16.2
+42 silly currentTree +-- send@0.16.2
+42 silly currentTree +-- serve-static@1.13.2
+42 silly currentTree +-- serve-static@1.13.2
+42 silly currentTree +-- setprototypeof@1.1.0
+42 silly currentTree +-- setprototypeof@1.1.0
+42 silly currentTree +-- statuses@1.4.0
+42 silly currentTree +-- statuses@1.5.0
+42 silly currentTree +-- statuses@1.5.0
+42 silly currentTree +-- type-is@1.6.18
+42 silly currentTree +-- type-is@1.6.18
+42 silly currentTree +-- uid-safe@2.1.5
+42 silly currentTree +-- uid-safe@2.1.5
+42 silly currentTree +-- unpipe@1.0.0
+42 silly currentTree +-- unpipe@1.0.0
+42 silly currentTree +-- utils-merge@1.0.1
+42 silly currentTree +-- utils-merge@1.0.1
+42 silly currentTree +-- vary@1.1.2
+42 silly currentTree `-- vary@1.1.2
+43 silly idealTree miaomiaoserver@0.0.0
+43 silly idealTree +-- cookie-parser@1.4.5
+43 silly idealTree | +-- cookie-signature@1.0.6
+43 silly idealTree | `-- cookie@0.4.0
+43 silly idealTree +-- cookie-signature@1.0.6
+43 silly idealTree +-- cookie@0.4.0
+43 silly idealTree +-- debug@2.6.9
+43 silly idealTree | `-- ms@2.0.0
+43 silly idealTree +-- ejs@2.6.2
+43 silly idealTree +-- express-session@1.17.0
+43 silly idealTree | +-- depd@2.0.0
+43 silly idealTree | `-- safe-buffer@5.2.0
+43 silly idealTree +-- express@4.16.4
+43 silly idealTree | +-- accepts@1.3.7
+43 silly idealTree | | +-- mime-types@2.1.26
+43 silly idealTree | | | `-- mime-db@1.43.0
+43 silly idealTree | | `-- negotiator@0.6.2
+43 silly idealTree | +-- array-flatten@1.1.1
+43 silly idealTree | +-- body-parser@1.18.3
+43 silly idealTree | | +-- bytes@3.0.0
+43 silly idealTree | | +-- content-type@1.0.4
+43 silly idealTree | | +-- debug@2.6.9
+43 silly idealTree | | +-- depd@1.1.2
+43 silly idealTree | | +-- http-errors@1.6.3
+43 silly idealTree | | | +-- depd@1.1.2
+43 silly idealTree | | | +-- inherits@2.0.3
+43 silly idealTree | | | +-- setprototypeof@1.1.0
+43 silly idealTree | | | `-- statuses@1.5.0
+43 silly idealTree | | +-- iconv-lite@0.4.23
+43 silly idealTree | | | `-- safer-buffer@2.1.2
+43 silly idealTree | | +-- on-finished@2.3.0
+43 silly idealTree | | | `-- ee-first@1.1.1
+43 silly idealTree | | +-- qs@6.5.2
+43 silly idealTree | | +-- raw-body@2.3.3
+43 silly idealTree | | | +-- bytes@3.0.0
+43 silly idealTree | | | +-- http-errors@1.6.3
+43 silly idealTree | | | +-- iconv-lite@0.4.23
+43 silly idealTree | | | `-- unpipe@1.0.0
+43 silly idealTree | | `-- type-is@1.6.18
+43 silly idealTree | |   +-- media-typer@0.3.0
+43 silly idealTree | |   `-- mime-types@2.1.26
+43 silly idealTree | +-- content-disposition@0.5.2
+43 silly idealTree | +-- content-type@1.0.4
+43 silly idealTree | +-- cookie-signature@1.0.6
+43 silly idealTree | +-- cookie@0.3.1
+43 silly idealTree | +-- debug@2.6.9
+43 silly idealTree | +-- depd@1.1.2
+43 silly idealTree | +-- encodeurl@1.0.2
+43 silly idealTree | +-- escape-html@1.0.3
+43 silly idealTree | +-- etag@1.8.1
+43 silly idealTree | +-- finalhandler@1.1.1
+43 silly idealTree | | +-- debug@2.6.9
+43 silly idealTree | | +-- encodeurl@1.0.2
+43 silly idealTree | | +-- escape-html@1.0.3
+43 silly idealTree | | +-- on-finished@2.3.0
+43 silly idealTree | | +-- parseurl@1.3.3
+43 silly idealTree | | +-- statuses@1.4.0
+43 silly idealTree | | `-- unpipe@1.0.0
+43 silly idealTree | +-- fresh@0.5.2
+43 silly idealTree | +-- merge-descriptors@1.0.1
+43 silly idealTree | +-- methods@1.1.2
+43 silly idealTree | +-- on-finished@2.3.0
+43 silly idealTree | +-- parseurl@1.3.3
+43 silly idealTree | +-- path-to-regexp@0.1.7
+43 silly idealTree | +-- proxy-addr@2.0.6
+43 silly idealTree | | +-- forwarded@0.1.2
+43 silly idealTree | | `-- ipaddr.js@1.9.1
+43 silly idealTree | +-- qs@6.5.2
+43 silly idealTree | +-- range-parser@1.2.1
+43 silly idealTree | +-- safe-buffer@5.1.2
+43 silly idealTree | +-- send@0.16.2
+43 silly idealTree | | +-- debug@2.6.9
+43 silly idealTree | | +-- depd@1.1.2
+43 silly idealTree | | +-- destroy@1.0.4
+43 silly idealTree | | +-- encodeurl@1.0.2
+43 silly idealTree | | +-- escape-html@1.0.3
+43 silly idealTree | | +-- etag@1.8.1
+43 silly idealTree | | +-- fresh@0.5.2
+43 silly idealTree | | +-- http-errors@1.6.3
+43 silly idealTree | | +-- mime@1.4.1
+43 silly idealTree | | +-- ms@2.0.0
+43 silly idealTree | | +-- on-finished@2.3.0
+43 silly idealTree | | +-- range-parser@1.2.1
+43 silly idealTree | | `-- statuses@1.4.0
+43 silly idealTree | +-- serve-static@1.13.2
+43 silly idealTree | | +-- encodeurl@1.0.2
+43 silly idealTree | | +-- escape-html@1.0.3
+43 silly idealTree | | +-- parseurl@1.3.3
+43 silly idealTree | | `-- send@0.16.2
+43 silly idealTree | +-- setprototypeof@1.1.0
+43 silly idealTree | +-- statuses@1.4.0
+43 silly idealTree | +-- type-is@1.6.18
+43 silly idealTree | +-- utils-merge@1.0.1
+43 silly idealTree | `-- vary@1.1.2
+43 silly idealTree +-- http-errors@1.6.3
+43 silly idealTree +-- morgan@1.9.1
+43 silly idealTree | +-- basic-auth@2.0.1
+43 silly idealTree | | `-- safe-buffer@5.1.2
+43 silly idealTree | +-- debug@2.6.9
+43 silly idealTree | +-- depd@1.1.2
+43 silly idealTree | +-- on-finished@2.3.0
+43 silly idealTree | `-- on-headers@1.0.2
+43 silly idealTree +-- nodemailer@6.4.6
+43 silly idealTree +-- on-headers@1.0.2
+43 silly idealTree +-- parseurl@1.3.3
+43 silly idealTree +-- random-bytes@1.0.0
+43 silly idealTree `-- uid-safe@2.1.5
+44 silly install generateActionsToTake
+45 timing stage:generateActionsToTake Completed in 28ms
+46 silly diffTrees action count 322
+47 silly diffTrees move mime-db@1.43.0
+48 silly diffTrees remove negotiator@0.6.2
+49 silly diffTrees remove safe-buffer@5.1.2
+50 silly diffTrees remove bytes@3.0.0
+51 silly diffTrees remove content-type@1.0.4
+52 silly diffTrees remove depd@1.1.2
+53 silly diffTrees remove qs@6.5.2
+54 silly diffTrees remove cookie@0.4.0
+55 silly diffTrees remove cookie-signature@1.0.6
+56 silly diffTrees remove ms@2.0.0
+57 silly diffTrees remove debug@2.6.9
+58 silly diffTrees remove cookie@0.4.0
+59 silly diffTrees remove cookie-signature@1.0.6
+60 silly diffTrees remove debug@2.6.9
+61 silly diffTrees remove depd@2.0.0
+62 silly diffTrees remove on-headers@1.0.2
+63 silly diffTrees remove parseurl@1.3.3
+64 silly diffTrees remove safe-buffer@5.2.0
+65 silly diffTrees remove array-flatten@1.1.1
+66 silly diffTrees move bytes@3.0.0
+67 silly diffTrees move content-type@1.0.4
+68 silly diffTrees move debug@2.6.9
+69 silly diffTrees move depd@1.1.2
+70 silly diffTrees move http-errors@1.6.3
+71 silly diffTrees move qs@6.5.2
+72 silly diffTrees move bytes@3.0.0
+73 silly diffTrees move http-errors@1.6.3
+74 silly diffTrees move safer-buffer@2.1.2
+75 silly diffTrees move iconv-lite@0.4.23
+76 silly diffTrees move iconv-lite@0.4.23
+77 silly diffTrees move unpipe@1.0.0
+78 silly diffTrees move raw-body@2.3.3
+79 silly diffTrees move media-typer@0.3.0
+80 silly diffTrees move mime-types@2.1.26
+81 silly diffTrees move type-is@1.6.18
+82 silly diffTrees remove content-disposition@0.5.2
+83 silly diffTrees remove content-type@1.0.4
+84 silly diffTrees remove cookie@0.3.1
+85 silly diffTrees remove cookie-signature@1.0.6
+86 silly diffTrees remove debug@2.6.9
+87 silly diffTrees remove depd@1.1.2
+88 silly diffTrees remove encodeurl@1.0.2
+89 silly diffTrees remove escape-html@1.0.3
+90 silly diffTrees remove etag@1.8.1
+91 silly diffTrees move ee-first@1.1.1
+92 silly diffTrees move on-finished@2.3.0
+93 silly diffTrees remove fresh@0.5.2
+94 silly diffTrees remove merge-descriptors@1.0.1
+95 silly diffTrees remove methods@1.1.2
+96 silly diffTrees remove parseurl@1.3.3
+97 silly diffTrees remove path-to-regexp@0.1.7
+98 silly diffTrees remove qs@6.5.2
+99 silly diffTrees remove range-parser@1.2.1
+100 silly diffTrees remove safe-buffer@5.1.2
+101 silly diffTrees remove setprototypeof@1.1.0
+102 silly diffTrees remove statuses@1.4.0
+103 silly diffTrees remove utils-merge@1.0.1
+104 silly diffTrees remove vary@1.1.2
+105 silly diffTrees remove debug@2.6.9
+106 silly diffTrees remove encodeurl@1.0.2
+107 silly diffTrees remove escape-html@1.0.3
+108 silly diffTrees remove parseurl@1.3.3
+109 silly diffTrees remove statuses@1.4.0
+110 silly diffTrees remove unpipe@1.0.0
+111 silly diffTrees remove depd@1.1.2
+112 silly diffTrees remove inherits@2.0.3
+113 silly diffTrees remove setprototypeof@1.1.0
+114 silly diffTrees remove statuses@1.5.0
+115 silly diffTrees remove safer-buffer@2.1.2
+116 silly diffTrees remove iconv-lite@0.4.23
+117 silly diffTrees remove mime-db@1.43.0
+118 silly diffTrees remove mime-types@2.1.26
+119 silly diffTrees remove accepts@1.3.7
+120 silly diffTrees move safe-buffer@5.1.2
+121 silly diffTrees remove basic-auth@2.0.1
+122 silly diffTrees remove debug@2.6.9
+123 silly diffTrees remove depd@1.1.2
+124 silly diffTrees remove on-headers@1.0.2
+125 silly diffTrees remove ee-first@1.1.1
+126 silly diffTrees remove on-finished@2.3.0
+127 silly diffTrees remove on-finished@2.3.0
+128 silly diffTrees remove on-finished@2.3.0
+129 silly diffTrees remove finalhandler@1.1.1
+130 silly diffTrees remove on-finished@2.3.0
+131 silly diffTrees remove forwarded@0.1.2
+132 silly diffTrees remove ipaddr.js@1.9.1
+133 silly diffTrees remove proxy-addr@2.0.6
+134 silly diffTrees remove bytes@3.0.0
+135 silly diffTrees remove http-errors@1.6.3
+136 silly diffTrees remove iconv-lite@0.4.23
+137 silly diffTrees remove unpipe@1.0.0
+138 silly diffTrees remove raw-body@2.3.3
+139 silly diffTrees remove debug@2.6.9
+140 silly diffTrees remove depd@1.1.2
+141 silly diffTrees remove destroy@1.0.4
+142 silly diffTrees remove encodeurl@1.0.2
+143 silly diffTrees remove escape-html@1.0.3
+144 silly diffTrees remove etag@1.8.1
+145 silly diffTrees remove fresh@0.5.2
+146 silly diffTrees remove http-errors@1.6.3
+147 silly diffTrees remove mime@1.4.1
+148 silly diffTrees remove ms@2.0.0
+149 silly diffTrees remove on-finished@2.3.0
+150 silly diffTrees remove range-parser@1.2.1
+151 silly diffTrees remove statuses@1.4.0
+152 silly diffTrees remove send@0.16.2
+153 silly diffTrees remove encodeurl@1.0.2
+154 silly diffTrees remove escape-html@1.0.3
+155 silly diffTrees remove parseurl@1.3.3
+156 silly diffTrees remove send@0.16.2
+157 silly diffTrees remove serve-static@1.13.2
+158 silly diffTrees remove media-typer@0.3.0
+159 silly diffTrees remove mime-types@2.1.26
+160 silly diffTrees remove type-is@1.6.18
+161 silly diffTrees remove body-parser@1.18.3
+162 silly diffTrees remove type-is@1.6.18
+163 silly diffTrees remove random-bytes@1.0.0
+164 silly diffTrees remove uid-safe@2.1.5
+165 silly diffTrees remove accepts@1.3.7
+166 silly diffTrees remove array-flatten@1.1.1
+167 silly diffTrees remove basic-auth@2.0.1
+168 silly diffTrees remove body-parser@1.18.3
+169 silly diffTrees remove bytes@3.0.0
+170 silly diffTrees remove content-disposition@0.5.2
+171 silly diffTrees remove content-type@1.0.4
+172 silly diffTrees remove cookie-parser@1.4.5
+173 silly diffTrees remove cookie-signature@1.0.6
+174 silly diffTrees remove cookie@0.3.1
+175 silly diffTrees remove cookie@0.4.0
+176 silly diffTrees remove debug@2.6.9
+177 silly diffTrees remove depd@1.1.2
+178 silly diffTrees remove depd@2.0.0
+179 silly diffTrees remove destroy@1.0.4
+180 silly diffTrees remove ee-first@1.1.1
+181 silly diffTrees remove ejs@2.6.2
+182 silly diffTrees remove encodeurl@1.0.2
+183 silly diffTrees remove escape-html@1.0.3
+184 silly diffTrees remove etag@1.8.1
+185 silly diffTrees remove express-session@1.17.0
+186 silly diffTrees remove express@4.16.4
+187 silly diffTrees remove finalhandler@1.1.1
+188 silly diffTrees remove forwarded@0.1.2
+189 silly diffTrees remove fresh@0.5.2
+190 silly diffTrees remove http-errors@1.6.3
+191 silly diffTrees remove iconv-lite@0.4.23
+192 silly diffTrees remove inherits@2.0.3
+193 silly diffTrees remove ipaddr.js@1.9.1
+194 silly diffTrees remove media-typer@0.3.0
+195 silly diffTrees remove merge-descriptors@1.0.1
+196 silly diffTrees remove methods@1.1.2
+197 silly diffTrees remove mime-db@1.43.0
+198 silly diffTrees remove mime-types@2.1.26
+199 silly diffTrees remove mime@1.4.1
+200 silly diffTrees remove morgan@1.9.1
+201 silly diffTrees remove ms@2.0.0
+202 silly diffTrees remove negotiator@0.6.2
+203 silly diffTrees remove nodemailer@6.4.6
+204 silly diffTrees remove on-finished@2.3.0
+205 silly diffTrees remove on-headers@1.0.2
+206 silly diffTrees remove parseurl@1.3.3
+207 silly diffTrees remove path-to-regexp@0.1.7
+208 silly diffTrees remove proxy-addr@2.0.6
+209 silly diffTrees remove qs@6.5.2
+210 silly diffTrees remove random-bytes@1.0.0
+211 silly diffTrees remove range-parser@1.2.1
+212 silly diffTrees remove raw-body@2.3.3
+213 silly diffTrees remove safe-buffer@5.1.2
+214 silly diffTrees remove safe-buffer@5.2.0
+215 silly diffTrees remove safer-buffer@2.1.2
+216 silly diffTrees remove send@0.16.2
+217 silly diffTrees remove serve-static@1.13.2
+218 silly diffTrees remove setprototypeof@1.1.0
+219 silly diffTrees remove statuses@1.4.0
+220 silly diffTrees remove statuses@1.5.0
+221 silly diffTrees remove type-is@1.6.18
+222 silly diffTrees remove uid-safe@2.1.5
+223 silly diffTrees remove unpipe@1.0.0
+224 silly diffTrees remove utils-merge@1.0.1
+225 silly diffTrees remove vary@1.1.2
+226 silly diffTrees remove accepts@1.3.7
+227 silly diffTrees remove array-flatten@1.1.1
+228 silly diffTrees remove basic-auth@2.0.1
+229 silly diffTrees remove body-parser@1.18.3
+230 silly diffTrees remove content-disposition@0.5.2
+231 silly diffTrees remove destroy@1.0.4
+232 silly diffTrees remove encodeurl@1.0.2
+233 silly diffTrees remove escape-html@1.0.3
+234 silly diffTrees remove etag@1.8.1
+235 silly diffTrees update depd@2.0.0
+236 silly diffTrees update safe-buffer@5.2.0
+237 silly diffTrees update express-session@1.17.0
+238 silly diffTrees remove finalhandler@1.1.1
+239 silly diffTrees remove forwarded@0.1.2
+240 silly diffTrees remove fresh@0.5.2
+241 silly diffTrees remove inherits@2.0.3
+242 silly diffTrees remove ipaddr.js@1.9.1
+243 silly diffTrees remove merge-descriptors@1.0.1
+244 silly diffTrees remove methods@1.1.2
+245 silly diffTrees remove mime@1.4.1
+246 silly diffTrees remove ms@2.0.0
+247 silly diffTrees remove path-to-regexp@0.1.7
+248 silly diffTrees remove proxy-addr@2.0.6
+249 silly diffTrees remove range-parser@1.2.1
+250 silly diffTrees remove send@0.16.2
+251 silly diffTrees remove serve-static@1.13.2
+252 silly diffTrees remove setprototypeof@1.1.0
+253 silly diffTrees remove statuses@1.5.0
+254 silly diffTrees remove utils-merge@1.0.1
+255 silly diffTrees remove vary@1.1.2
+256 silly diffTrees move mime-types@2.1.26
+257 silly diffTrees move negotiator@0.6.2
+258 silly diffTrees move mime-db@1.43.0
+259 silly diffTrees move ee-first@1.1.1
+260 silly diffTrees remove negotiator@0.6.2
+261 silly diffTrees remove safe-buffer@5.1.2
+262 silly diffTrees remove content-type@1.0.4
+263 silly diffTrees remove depd@1.1.2
+264 silly diffTrees remove on-finished@2.3.0
+265 silly diffTrees remove qs@6.5.2
+266 silly diffTrees remove raw-body@2.3.3
+267 silly diffTrees remove type-is@1.6.18
+268 silly diffTrees remove ms@2.0.0
+269 silly diffTrees remove cookie@0.4.0
+270 silly diffTrees remove cookie-signature@1.0.6
+271 silly diffTrees remove debug@2.6.9
+272 silly diffTrees remove on-headers@1.0.2
+273 silly diffTrees remove parseurl@1.3.3
+274 silly diffTrees remove uid-safe@2.1.5
+275 silly diffTrees remove debug@2.6.9
+276 silly diffTrees remove encodeurl@1.0.2
+277 silly diffTrees remove escape-html@1.0.3
+278 silly diffTrees remove on-finished@2.3.0
+279 silly diffTrees remove parseurl@1.3.3
+280 silly diffTrees remove statuses@1.4.0
+281 silly diffTrees remove unpipe@1.0.0
+282 silly diffTrees remove debug@2.6.9
+283 silly diffTrees remove encodeurl@1.0.2
+284 silly diffTrees remove escape-html@1.0.3
+285 silly diffTrees remove on-finished@2.3.0
+286 silly diffTrees remove parseurl@1.3.3
+287 silly diffTrees remove statuses@1.4.0
+288 silly diffTrees remove unpipe@1.0.0
+289 silly diffTrees remove depd@1.1.2
+290 silly diffTrees remove inherits@2.0.3
+291 silly diffTrees remove setprototypeof@1.1.0
+292 silly diffTrees remove statuses@1.5.0
+293 silly diffTrees remove safer-buffer@2.1.2
+294 silly diffTrees remove safer-buffer@2.1.2
+295 silly diffTrees remove mime-db@1.43.0
+296 silly diffTrees remove ee-first@1.1.1
+297 silly diffTrees remove forwarded@0.1.2
+298 silly diffTrees remove ipaddr.js@1.9.1
+299 silly diffTrees remove forwarded@0.1.2
+300 silly diffTrees remove ipaddr.js@1.9.1
+301 silly diffTrees remove bytes@3.0.0
+302 silly diffTrees remove http-errors@1.6.3
+303 silly diffTrees remove iconv-lite@0.4.23
+304 silly diffTrees remove unpipe@1.0.0
+305 silly diffTrees remove bytes@3.0.0
+306 silly diffTrees remove http-errors@1.6.3
+307 silly diffTrees remove iconv-lite@0.4.23
+308 silly diffTrees remove unpipe@1.0.0
+309 silly diffTrees remove debug@2.6.9
+310 silly diffTrees remove depd@1.1.2
+311 silly diffTrees remove destroy@1.0.4
+312 silly diffTrees remove encodeurl@1.0.2
+313 silly diffTrees remove escape-html@1.0.3
+314 silly diffTrees remove etag@1.8.1
+315 silly diffTrees remove fresh@0.5.2
+316 silly diffTrees remove http-errors@1.6.3
+317 silly diffTrees remove mime@1.4.1
+318 silly diffTrees remove ms@2.0.0
+319 silly diffTrees remove on-finished@2.3.0
+320 silly diffTrees remove range-parser@1.2.1
+321 silly diffTrees remove statuses@1.4.0
+322 silly diffTrees remove debug@2.6.9
+323 silly diffTrees remove depd@1.1.2
+324 silly diffTrees remove destroy@1.0.4
+325 silly diffTrees remove encodeurl@1.0.2
+326 silly diffTrees remove escape-html@1.0.3
+327 silly diffTrees remove etag@1.8.1
+328 silly diffTrees remove fresh@0.5.2
+329 silly diffTrees remove http-errors@1.6.3
+330 silly diffTrees remove mime@1.4.1
+331 silly diffTrees remove ms@2.0.0
+332 silly diffTrees remove on-finished@2.3.0
+333 silly diffTrees remove range-parser@1.2.1
+334 silly diffTrees remove statuses@1.4.0
+335 silly diffTrees remove encodeurl@1.0.2
+336 silly diffTrees remove escape-html@1.0.3
+337 silly diffTrees remove parseurl@1.3.3
+338 silly diffTrees remove send@0.16.2
+339 silly diffTrees remove encodeurl@1.0.2
+340 silly diffTrees remove escape-html@1.0.3
+341 silly diffTrees remove parseurl@1.3.3
+342 silly diffTrees remove send@0.16.2
+343 silly diffTrees remove media-typer@0.3.0
+344 silly diffTrees remove mime-types@2.1.26
+345 silly diffTrees remove media-typer@0.3.0
+346 silly diffTrees remove mime-types@2.1.26
+347 silly diffTrees remove random-bytes@1.0.0
+348 silly diffTrees remove mime-db@1.43.0
+349 silly diffTrees remove ms@2.0.0
+350 silly diffTrees remove depd@1.1.2
+351 silly diffTrees remove inherits@2.0.3
+352 silly diffTrees remove setprototypeof@1.1.0
+353 silly diffTrees remove statuses@1.5.0
+354 silly diffTrees remove safer-buffer@2.1.2
+355 silly diffTrees remove ee-first@1.1.1
+356 silly diffTrees remove bytes@3.0.0
+357 silly diffTrees remove http-errors@1.6.3
+358 silly diffTrees remove iconv-lite@0.4.23
+359 silly diffTrees remove unpipe@1.0.0
+360 silly diffTrees remove media-typer@0.3.0
+361 silly diffTrees remove mime-types@2.1.26
+362 silly diffTrees remove ee-first@1.1.1
+363 silly diffTrees remove media-typer@0.3.0
+364 silly diffTrees remove mime-types@2.1.26
+365 silly diffTrees remove ee-first@1.1.1
+366 silly diffTrees remove random-bytes@1.0.0
+367 silly diffTrees remove ee-first@1.1.1
+368 silly diffTrees remove ee-first@1.1.1
+369 silly decomposeActions action count 508
+370 silly decomposeActions move mime-db@1.43.0
+371 silly decomposeActions build mime-db@1.43.0
+372 silly decomposeActions install mime-db@1.43.0
+373 silly decomposeActions postinstall mime-db@1.43.0
+374 silly decomposeActions refresh-package-json mime-db@1.43.0
+375 silly decomposeActions unbuild negotiator@0.6.2
+376 silly decomposeActions remove negotiator@0.6.2
+377 silly decomposeActions unbuild safe-buffer@5.1.2
+378 silly decomposeActions remove safe-buffer@5.1.2
+379 silly decomposeActions unbuild bytes@3.0.0
+380 silly decomposeActions remove bytes@3.0.0
+381 silly decomposeActions unbuild content-type@1.0.4
+382 silly decomposeActions remove content-type@1.0.4
+383 silly decomposeActions unbuild depd@1.1.2
+384 silly decomposeActions remove depd@1.1.2
+385 silly decomposeActions unbuild qs@6.5.2
+386 silly decomposeActions remove qs@6.5.2
+387 silly decomposeActions unbuild cookie@0.4.0
+388 silly decomposeActions remove cookie@0.4.0
+389 silly decomposeActions unbuild cookie-signature@1.0.6
+390 silly decomposeActions remove cookie-signature@1.0.6
+391 silly decomposeActions unbuild ms@2.0.0
+392 silly decomposeActions remove ms@2.0.0
+393 silly decomposeActions unbuild debug@2.6.9
+394 silly decomposeActions remove debug@2.6.9
+395 silly decomposeActions unbuild cookie@0.4.0
+396 silly decomposeActions remove cookie@0.4.0
+397 silly decomposeActions unbuild cookie-signature@1.0.6
+398 silly decomposeActions remove cookie-signature@1.0.6
+399 silly decomposeActions unbuild debug@2.6.9
+400 silly decomposeActions remove debug@2.6.9
+401 silly decomposeActions unbuild depd@2.0.0
+402 silly decomposeActions remove depd@2.0.0
+403 silly decomposeActions unbuild on-headers@1.0.2
+404 silly decomposeActions remove on-headers@1.0.2
+405 silly decomposeActions unbuild parseurl@1.3.3
+406 silly decomposeActions remove parseurl@1.3.3
+407 silly decomposeActions unbuild safe-buffer@5.2.0
+408 silly decomposeActions remove safe-buffer@5.2.0
+409 silly decomposeActions unbuild array-flatten@1.1.1
+410 silly decomposeActions remove array-flatten@1.1.1
+411 silly decomposeActions move bytes@3.0.0
+412 silly decomposeActions build bytes@3.0.0
+413 silly decomposeActions install bytes@3.0.0
+414 silly decomposeActions postinstall bytes@3.0.0
+415 silly decomposeActions refresh-package-json bytes@3.0.0
+416 silly decomposeActions move content-type@1.0.4
+417 silly decomposeActions build content-type@1.0.4
+418 silly decomposeActions install content-type@1.0.4
+419 silly decomposeActions postinstall content-type@1.0.4
+420 silly decomposeActions refresh-package-json content-type@1.0.4
+421 silly decomposeActions move debug@2.6.9
+422 silly decomposeActions build debug@2.6.9
+423 silly decomposeActions install debug@2.6.9
+424 silly decomposeActions postinstall debug@2.6.9
+425 silly decomposeActions refresh-package-json debug@2.6.9
+426 silly decomposeActions move depd@1.1.2
+427 silly decomposeActions build depd@1.1.2
+428 silly decomposeActions install depd@1.1.2
+429 silly decomposeActions postinstall depd@1.1.2
+430 silly decomposeActions refresh-package-json depd@1.1.2
+431 silly decomposeActions move http-errors@1.6.3
+432 silly decomposeActions build http-errors@1.6.3
+433 silly decomposeActions install http-errors@1.6.3
+434 silly decomposeActions postinstall http-errors@1.6.3
+435 silly decomposeActions refresh-package-json http-errors@1.6.3
+436 silly decomposeActions move qs@6.5.2
+437 silly decomposeActions build qs@6.5.2
+438 silly decomposeActions install qs@6.5.2
+439 silly decomposeActions postinstall qs@6.5.2
+440 silly decomposeActions refresh-package-json qs@6.5.2
+441 silly decomposeActions move bytes@3.0.0
+442 silly decomposeActions build bytes@3.0.0
+443 silly decomposeActions install bytes@3.0.0
+444 silly decomposeActions postinstall bytes@3.0.0
+445 silly decomposeActions refresh-package-json bytes@3.0.0
+446 silly decomposeActions move http-errors@1.6.3
+447 silly decomposeActions build http-errors@1.6.3
+448 silly decomposeActions install http-errors@1.6.3
+449 silly decomposeActions postinstall http-errors@1.6.3
+450 silly decomposeActions refresh-package-json http-errors@1.6.3
+451 silly decomposeActions move safer-buffer@2.1.2
+452 silly decomposeActions build safer-buffer@2.1.2
+453 silly decomposeActions install safer-buffer@2.1.2
+454 silly decomposeActions postinstall safer-buffer@2.1.2
+455 silly decomposeActions refresh-package-json safer-buffer@2.1.2
+456 silly decomposeActions move iconv-lite@0.4.23
+457 silly decomposeActions build iconv-lite@0.4.23
+458 silly decomposeActions install iconv-lite@0.4.23
+459 silly decomposeActions postinstall iconv-lite@0.4.23
+460 silly decomposeActions refresh-package-json iconv-lite@0.4.23
+461 silly decomposeActions move iconv-lite@0.4.23
+462 silly decomposeActions build iconv-lite@0.4.23
+463 silly decomposeActions install iconv-lite@0.4.23
+464 silly decomposeActions postinstall iconv-lite@0.4.23
+465 silly decomposeActions refresh-package-json iconv-lite@0.4.23
+466 silly decomposeActions move unpipe@1.0.0
+467 silly decomposeActions build unpipe@1.0.0
+468 silly decomposeActions install unpipe@1.0.0
+469 silly decomposeActions postinstall unpipe@1.0.0
+470 silly decomposeActions refresh-package-json unpipe@1.0.0
+471 silly decomposeActions move raw-body@2.3.3
+472 silly decomposeActions build raw-body@2.3.3
+473 silly decomposeActions install raw-body@2.3.3
+474 silly decomposeActions postinstall raw-body@2.3.3
+475 silly decomposeActions refresh-package-json raw-body@2.3.3
+476 silly decomposeActions move media-typer@0.3.0
+477 silly decomposeActions build media-typer@0.3.0
+478 silly decomposeActions install media-typer@0.3.0
+479 silly decomposeActions postinstall media-typer@0.3.0
+480 silly decomposeActions refresh-package-json media-typer@0.3.0
+481 silly decomposeActions move mime-types@2.1.26
+482 silly decomposeActions build mime-types@2.1.26
+483 silly decomposeActions install mime-types@2.1.26
+484 silly decomposeActions postinstall mime-types@2.1.26
+485 silly decomposeActions refresh-package-json mime-types@2.1.26
+486 silly decomposeActions move type-is@1.6.18
+487 silly decomposeActions build type-is@1.6.18
+488 silly decomposeActions install type-is@1.6.18
+489 silly decomposeActions postinstall type-is@1.6.18
+490 silly decomposeActions refresh-package-json type-is@1.6.18
+491 silly decomposeActions unbuild content-disposition@0.5.2
+492 silly decomposeActions remove content-disposition@0.5.2
+493 silly decomposeActions unbuild content-type@1.0.4
+494 silly decomposeActions remove content-type@1.0.4
+495 silly decomposeActions unbuild cookie@0.3.1
+496 silly decomposeActions remove cookie@0.3.1
+497 silly decomposeActions unbuild cookie-signature@1.0.6
+498 silly decomposeActions remove cookie-signature@1.0.6
+499 silly decomposeActions unbuild debug@2.6.9
+500 silly decomposeActions remove debug@2.6.9
+501 silly decomposeActions unbuild depd@1.1.2
+502 silly decomposeActions remove depd@1.1.2
+503 silly decomposeActions unbuild encodeurl@1.0.2
+504 silly decomposeActions remove encodeurl@1.0.2
+505 silly decomposeActions unbuild escape-html@1.0.3
+506 silly decomposeActions remove escape-html@1.0.3
+507 silly decomposeActions unbuild etag@1.8.1
+508 silly decomposeActions remove etag@1.8.1
+509 silly decomposeActions move ee-first@1.1.1
+510 silly decomposeActions build ee-first@1.1.1
+511 silly decomposeActions install ee-first@1.1.1
+512 silly decomposeActions postinstall ee-first@1.1.1
+513 silly decomposeActions refresh-package-json ee-first@1.1.1
+514 silly decomposeActions move on-finished@2.3.0
+515 silly decomposeActions build on-finished@2.3.0
+516 silly decomposeActions install on-finished@2.3.0
+517 silly decomposeActions postinstall on-finished@2.3.0
+518 silly decomposeActions refresh-package-json on-finished@2.3.0
+519 silly decomposeActions unbuild fresh@0.5.2
+520 silly decomposeActions remove fresh@0.5.2
+521 silly decomposeActions unbuild merge-descriptors@1.0.1
+522 silly decomposeActions remove merge-descriptors@1.0.1
+523 silly decomposeActions unbuild methods@1.1.2
+524 silly decomposeActions remove methods@1.1.2
+525 silly decomposeActions unbuild parseurl@1.3.3
+526 silly decomposeActions remove parseurl@1.3.3
+527 silly decomposeActions unbuild path-to-regexp@0.1.7
+528 silly decomposeActions remove path-to-regexp@0.1.7
+529 silly decomposeActions unbuild qs@6.5.2
+530 silly decomposeActions remove qs@6.5.2
+531 silly decomposeActions unbuild range-parser@1.2.1
+532 silly decomposeActions remove range-parser@1.2.1
+533 silly decomposeActions unbuild safe-buffer@5.1.2
+534 silly decomposeActions remove safe-buffer@5.1.2
+535 silly decomposeActions unbuild setprototypeof@1.1.0
+536 silly decomposeActions remove setprototypeof@1.1.0
+537 silly decomposeActions unbuild statuses@1.4.0
+538 silly decomposeActions remove statuses@1.4.0
+539 silly decomposeActions unbuild utils-merge@1.0.1
+540 silly decomposeActions remove utils-merge@1.0.1
+541 silly decomposeActions unbuild vary@1.1.2
+542 silly decomposeActions remove vary@1.1.2
+543 silly decomposeActions unbuild debug@2.6.9
+544 silly decomposeActions remove debug@2.6.9
+545 silly decomposeActions unbuild encodeurl@1.0.2
+546 silly decomposeActions remove encodeurl@1.0.2
+547 silly decomposeActions unbuild escape-html@1.0.3
+548 silly decomposeActions remove escape-html@1.0.3
+549 silly decomposeActions unbuild parseurl@1.3.3
+550 silly decomposeActions remove parseurl@1.3.3
+551 silly decomposeActions unbuild statuses@1.4.0
+552 silly decomposeActions remove statuses@1.4.0
+553 silly decomposeActions unbuild unpipe@1.0.0
+554 silly decomposeActions remove unpipe@1.0.0
+555 silly decomposeActions unbuild depd@1.1.2
+556 silly decomposeActions remove depd@1.1.2
+557 silly decomposeActions unbuild inherits@2.0.3
+558 silly decomposeActions remove inherits@2.0.3
+559 silly decomposeActions unbuild setprototypeof@1.1.0
+560 silly decomposeActions remove setprototypeof@1.1.0
+561 silly decomposeActions unbuild statuses@1.5.0
+562 silly decomposeActions remove statuses@1.5.0
+563 silly decomposeActions unbuild safer-buffer@2.1.2
+564 silly decomposeActions remove safer-buffer@2.1.2
+565 silly decomposeActions unbuild iconv-lite@0.4.23
+566 silly decomposeActions remove iconv-lite@0.4.23
+567 silly decomposeActions unbuild mime-db@1.43.0
+568 silly decomposeActions remove mime-db@1.43.0
+569 silly decomposeActions unbuild mime-types@2.1.26
+570 silly decomposeActions remove mime-types@2.1.26
+571 silly decomposeActions unbuild accepts@1.3.7
+572 silly decomposeActions remove accepts@1.3.7
+573 silly decomposeActions move safe-buffer@5.1.2
+574 silly decomposeActions build safe-buffer@5.1.2
+575 silly decomposeActions install safe-buffer@5.1.2
+576 silly decomposeActions postinstall safe-buffer@5.1.2
+577 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+578 silly decomposeActions unbuild basic-auth@2.0.1
+579 silly decomposeActions remove basic-auth@2.0.1
+580 silly decomposeActions unbuild debug@2.6.9
+581 silly decomposeActions remove debug@2.6.9
+582 silly decomposeActions unbuild depd@1.1.2
+583 silly decomposeActions remove depd@1.1.2
+584 silly decomposeActions unbuild on-headers@1.0.2
+585 silly decomposeActions remove on-headers@1.0.2
+586 silly decomposeActions unbuild ee-first@1.1.1
+587 silly decomposeActions remove ee-first@1.1.1
+588 silly decomposeActions unbuild on-finished@2.3.0
+589 silly decomposeActions remove on-finished@2.3.0
+590 silly decomposeActions unbuild on-finished@2.3.0
+591 silly decomposeActions remove on-finished@2.3.0
+592 silly decomposeActions unbuild on-finished@2.3.0
+593 silly decomposeActions remove on-finished@2.3.0
+594 silly decomposeActions unbuild finalhandler@1.1.1
+595 silly decomposeActions remove finalhandler@1.1.1
+596 silly decomposeActions unbuild on-finished@2.3.0
+597 silly decomposeActions remove on-finished@2.3.0
+598 silly decomposeActions unbuild forwarded@0.1.2
+599 silly decomposeActions remove forwarded@0.1.2
+600 silly decomposeActions unbuild ipaddr.js@1.9.1
+601 silly decomposeActions remove ipaddr.js@1.9.1
+602 silly decomposeActions unbuild proxy-addr@2.0.6
+603 silly decomposeActions remove proxy-addr@2.0.6
+604 silly decomposeActions unbuild bytes@3.0.0
+605 silly decomposeActions remove bytes@3.0.0
+606 silly decomposeActions unbuild http-errors@1.6.3
+607 silly decomposeActions remove http-errors@1.6.3
+608 silly decomposeActions unbuild iconv-lite@0.4.23
+609 silly decomposeActions remove iconv-lite@0.4.23
+610 silly decomposeActions unbuild unpipe@1.0.0
+611 silly decomposeActions remove unpipe@1.0.0
+612 silly decomposeActions unbuild raw-body@2.3.3
+613 silly decomposeActions remove raw-body@2.3.3
+614 silly decomposeActions unbuild debug@2.6.9
+615 silly decomposeActions remove debug@2.6.9
+616 silly decomposeActions unbuild depd@1.1.2
+617 silly decomposeActions remove depd@1.1.2
+618 silly decomposeActions unbuild destroy@1.0.4
+619 silly decomposeActions remove destroy@1.0.4
+620 silly decomposeActions unbuild encodeurl@1.0.2
+621 silly decomposeActions remove encodeurl@1.0.2
+622 silly decomposeActions unbuild escape-html@1.0.3
+623 silly decomposeActions remove escape-html@1.0.3
+624 silly decomposeActions unbuild etag@1.8.1
+625 silly decomposeActions remove etag@1.8.1
+626 silly decomposeActions unbuild fresh@0.5.2
+627 silly decomposeActions remove fresh@0.5.2
+628 silly decomposeActions unbuild http-errors@1.6.3
+629 silly decomposeActions remove http-errors@1.6.3
+630 silly decomposeActions unbuild mime@1.4.1
+631 silly decomposeActions remove mime@1.4.1
+632 silly decomposeActions unbuild ms@2.0.0
+633 silly decomposeActions remove ms@2.0.0
+634 silly decomposeActions unbuild on-finished@2.3.0
+635 silly decomposeActions remove on-finished@2.3.0
+636 silly decomposeActions unbuild range-parser@1.2.1
+637 silly decomposeActions remove range-parser@1.2.1
+638 silly decomposeActions unbuild statuses@1.4.0
+639 silly decomposeActions remove statuses@1.4.0
+640 silly decomposeActions unbuild send@0.16.2
+641 silly decomposeActions remove send@0.16.2
+642 silly decomposeActions unbuild encodeurl@1.0.2
+643 silly decomposeActions remove encodeurl@1.0.2
+644 silly decomposeActions unbuild escape-html@1.0.3
+645 silly decomposeActions remove escape-html@1.0.3
+646 silly decomposeActions unbuild parseurl@1.3.3
+647 silly decomposeActions remove parseurl@1.3.3
+648 silly decomposeActions unbuild send@0.16.2
+649 silly decomposeActions remove send@0.16.2
+650 silly decomposeActions unbuild serve-static@1.13.2
+651 silly decomposeActions remove serve-static@1.13.2
+652 silly decomposeActions unbuild media-typer@0.3.0
+653 silly decomposeActions remove media-typer@0.3.0
+654 silly decomposeActions unbuild mime-types@2.1.26
+655 silly decomposeActions remove mime-types@2.1.26
+656 silly decomposeActions unbuild type-is@1.6.18
+657 silly decomposeActions remove type-is@1.6.18
+658 silly decomposeActions unbuild body-parser@1.18.3
+659 silly decomposeActions remove body-parser@1.18.3
+660 silly decomposeActions unbuild type-is@1.6.18
+661 silly decomposeActions remove type-is@1.6.18
+662 silly decomposeActions unbuild random-bytes@1.0.0
+663 silly decomposeActions remove random-bytes@1.0.0
+664 silly decomposeActions unbuild uid-safe@2.1.5
+665 silly decomposeActions remove uid-safe@2.1.5
+666 silly decomposeActions unbuild accepts@1.3.7
+667 silly decomposeActions remove accepts@1.3.7
+668 silly decomposeActions unbuild array-flatten@1.1.1
+669 silly decomposeActions remove array-flatten@1.1.1
+670 silly decomposeActions unbuild basic-auth@2.0.1
+671 silly decomposeActions remove basic-auth@2.0.1
+672 silly decomposeActions unbuild body-parser@1.18.3
+673 silly decomposeActions remove body-parser@1.18.3
+674 silly decomposeActions unbuild bytes@3.0.0
+675 silly decomposeActions remove bytes@3.0.0
+676 silly decomposeActions unbuild content-disposition@0.5.2
+677 silly decomposeActions remove content-disposition@0.5.2
+678 silly decomposeActions unbuild content-type@1.0.4
+679 silly decomposeActions remove content-type@1.0.4
+680 silly decomposeActions unbuild cookie-parser@1.4.5
+681 silly decomposeActions remove cookie-parser@1.4.5
+682 silly decomposeActions unbuild cookie-signature@1.0.6
+683 silly decomposeActions remove cookie-signature@1.0.6
+684 silly decomposeActions unbuild cookie@0.3.1
+685 silly decomposeActions remove cookie@0.3.1
+686 silly decomposeActions unbuild cookie@0.4.0
+687 silly decomposeActions remove cookie@0.4.0
+688 silly decomposeActions unbuild debug@2.6.9
+689 silly decomposeActions remove debug@2.6.9
+690 silly decomposeActions unbuild depd@1.1.2
+691 silly decomposeActions remove depd@1.1.2
+692 silly decomposeActions unbuild depd@2.0.0
+693 silly decomposeActions remove depd@2.0.0
+694 silly decomposeActions unbuild destroy@1.0.4
+695 silly decomposeActions remove destroy@1.0.4
+696 silly decomposeActions unbuild ee-first@1.1.1
+697 silly decomposeActions remove ee-first@1.1.1
+698 silly decomposeActions unbuild ejs@2.6.2
+699 silly decomposeActions remove ejs@2.6.2
+700 silly decomposeActions unbuild encodeurl@1.0.2
+701 silly decomposeActions remove encodeurl@1.0.2
+702 silly decomposeActions unbuild escape-html@1.0.3
+703 silly decomposeActions remove escape-html@1.0.3
+704 silly decomposeActions unbuild etag@1.8.1
+705 silly decomposeActions remove etag@1.8.1
+706 silly decomposeActions unbuild express-session@1.17.0
+707 silly decomposeActions remove express-session@1.17.0
+708 silly decomposeActions unbuild express@4.16.4
+709 silly decomposeActions remove express@4.16.4
+710 silly decomposeActions unbuild finalhandler@1.1.1
+711 silly decomposeActions remove finalhandler@1.1.1
+712 silly decomposeActions unbuild forwarded@0.1.2
+713 silly decomposeActions remove forwarded@0.1.2
+714 silly decomposeActions unbuild fresh@0.5.2
+715 silly decomposeActions remove fresh@0.5.2
+716 silly decomposeActions unbuild http-errors@1.6.3
+717 silly decomposeActions remove http-errors@1.6.3
+718 silly decomposeActions unbuild iconv-lite@0.4.23
+719 silly decomposeActions remove iconv-lite@0.4.23
+720 silly decomposeActions unbuild inherits@2.0.3
+721 silly decomposeActions remove inherits@2.0.3
+722 silly decomposeActions unbuild ipaddr.js@1.9.1
+723 silly decomposeActions remove ipaddr.js@1.9.1
+724 silly decomposeActions unbuild media-typer@0.3.0
+725 silly decomposeActions remove media-typer@0.3.0
+726 silly decomposeActions unbuild merge-descriptors@1.0.1
+727 silly decomposeActions remove merge-descriptors@1.0.1
+728 silly decomposeActions unbuild methods@1.1.2
+729 silly decomposeActions remove methods@1.1.2
+730 silly decomposeActions unbuild mime-db@1.43.0
+731 silly decomposeActions remove mime-db@1.43.0
+732 silly decomposeActions unbuild mime-types@2.1.26
+733 silly decomposeActions remove mime-types@2.1.26
+734 silly decomposeActions unbuild mime@1.4.1
+735 silly decomposeActions remove mime@1.4.1
+736 silly decomposeActions unbuild morgan@1.9.1
+737 silly decomposeActions remove morgan@1.9.1
+738 silly decomposeActions unbuild ms@2.0.0
+739 silly decomposeActions remove ms@2.0.0
+740 silly decomposeActions unbuild negotiator@0.6.2
+741 silly decomposeActions remove negotiator@0.6.2
+742 silly decomposeActions unbuild nodemailer@6.4.6
+743 silly decomposeActions remove nodemailer@6.4.6
+744 silly decomposeActions unbuild on-finished@2.3.0
+745 silly decomposeActions remove on-finished@2.3.0
+746 silly decomposeActions unbuild on-headers@1.0.2
+747 silly decomposeActions remove on-headers@1.0.2
+748 silly decomposeActions unbuild parseurl@1.3.3
+749 silly decomposeActions remove parseurl@1.3.3
+750 silly decomposeActions unbuild path-to-regexp@0.1.7
+751 silly decomposeActions remove path-to-regexp@0.1.7
+752 silly decomposeActions unbuild proxy-addr@2.0.6
+753 silly decomposeActions remove proxy-addr@2.0.6
+754 silly decomposeActions unbuild qs@6.5.2
+755 silly decomposeActions remove qs@6.5.2
+756 silly decomposeActions unbuild random-bytes@1.0.0
+757 silly decomposeActions remove random-bytes@1.0.0
+758 silly decomposeActions unbuild range-parser@1.2.1
+759 silly decomposeActions remove range-parser@1.2.1
+760 silly decomposeActions unbuild raw-body@2.3.3
+761 silly decomposeActions remove raw-body@2.3.3
+762 silly decomposeActions unbuild safe-buffer@5.1.2
+763 silly decomposeActions remove safe-buffer@5.1.2
+764 silly decomposeActions unbuild safe-buffer@5.2.0
+765 silly decomposeActions remove safe-buffer@5.2.0
+766 silly decomposeActions unbuild safer-buffer@2.1.2
+767 silly decomposeActions remove safer-buffer@2.1.2
+768 silly decomposeActions unbuild send@0.16.2
+769 silly decomposeActions remove send@0.16.2
+770 silly decomposeActions unbuild serve-static@1.13.2
+771 silly decomposeActions remove serve-static@1.13.2
+772 silly decomposeActions unbuild setprototypeof@1.1.0
+773 silly decomposeActions remove setprototypeof@1.1.0
+774 silly decomposeActions unbuild statuses@1.4.0
+775 silly decomposeActions remove statuses@1.4.0
+776 silly decomposeActions unbuild statuses@1.5.0
+777 silly decomposeActions remove statuses@1.5.0
+778 silly decomposeActions unbuild type-is@1.6.18
+779 silly decomposeActions remove type-is@1.6.18
+780 silly decomposeActions unbuild uid-safe@2.1.5
+781 silly decomposeActions remove uid-safe@2.1.5
+782 silly decomposeActions unbuild unpipe@1.0.0
+783 silly decomposeActions remove unpipe@1.0.0
+784 silly decomposeActions unbuild utils-merge@1.0.1
+785 silly decomposeActions remove utils-merge@1.0.1
+786 silly decomposeActions unbuild vary@1.1.2
+787 silly decomposeActions remove vary@1.1.2
+788 silly decomposeActions unbuild accepts@1.3.7
+789 silly decomposeActions remove accepts@1.3.7
+790 silly decomposeActions unbuild array-flatten@1.1.1
+791 silly decomposeActions remove array-flatten@1.1.1
+792 silly decomposeActions unbuild basic-auth@2.0.1
+793 silly decomposeActions remove basic-auth@2.0.1
+794 silly decomposeActions unbuild body-parser@1.18.3
+795 silly decomposeActions remove body-parser@1.18.3
+796 silly decomposeActions unbuild content-disposition@0.5.2
+797 silly decomposeActions remove content-disposition@0.5.2
+798 silly decomposeActions unbuild destroy@1.0.4
+799 silly decomposeActions remove destroy@1.0.4
+800 silly decomposeActions unbuild encodeurl@1.0.2
+801 silly decomposeActions remove encodeurl@1.0.2
+802 silly decomposeActions unbuild escape-html@1.0.3
+803 silly decomposeActions remove escape-html@1.0.3
+804 silly decomposeActions unbuild etag@1.8.1
+805 silly decomposeActions remove etag@1.8.1
+806 silly decomposeActions fetch depd@2.0.0
+807 silly decomposeActions extract depd@2.0.0
+808 silly decomposeActions preinstall depd@2.0.0
+809 silly decomposeActions build depd@2.0.0
+810 silly decomposeActions install depd@2.0.0
+811 silly decomposeActions postinstall depd@2.0.0
+812 silly decomposeActions finalize depd@2.0.0
+813 silly decomposeActions refresh-package-json depd@2.0.0
+814 silly decomposeActions fetch safe-buffer@5.2.0
+815 silly decomposeActions extract safe-buffer@5.2.0
+816 silly decomposeActions preinstall safe-buffer@5.2.0
+817 silly decomposeActions build safe-buffer@5.2.0
+818 silly decomposeActions install safe-buffer@5.2.0
+819 silly decomposeActions postinstall safe-buffer@5.2.0
+820 silly decomposeActions finalize safe-buffer@5.2.0
+821 silly decomposeActions refresh-package-json safe-buffer@5.2.0
+822 silly decomposeActions unbuild express-session@1.17.0
+823 silly decomposeActions remove express-session@1.17.0
+824 silly decomposeActions fetch express-session@1.17.0
+825 silly decomposeActions extract express-session@1.17.0
+826 silly decomposeActions preinstall express-session@1.17.0
+827 silly decomposeActions build express-session@1.17.0
+828 silly decomposeActions install express-session@1.17.0
+829 silly decomposeActions postinstall express-session@1.17.0
+830 silly decomposeActions finalize express-session@1.17.0
+831 silly decomposeActions refresh-package-json express-session@1.17.0
+832 silly decomposeActions unbuild finalhandler@1.1.1
+833 silly decomposeActions remove finalhandler@1.1.1
+834 silly decomposeActions unbuild forwarded@0.1.2
+835 silly decomposeActions remove forwarded@0.1.2
+836 silly decomposeActions unbuild fresh@0.5.2
+837 silly decomposeActions remove fresh@0.5.2
+838 silly decomposeActions unbuild inherits@2.0.3
+839 silly decomposeActions remove inherits@2.0.3
+840 silly decomposeActions unbuild ipaddr.js@1.9.1
+841 silly decomposeActions remove ipaddr.js@1.9.1
+842 silly decomposeActions unbuild merge-descriptors@1.0.1
+843 silly decomposeActions remove merge-descriptors@1.0.1
+844 silly decomposeActions unbuild methods@1.1.2
+845 silly decomposeActions remove methods@1.1.2
+846 silly decomposeActions unbuild mime@1.4.1
+847 silly decomposeActions remove mime@1.4.1
+848 silly decomposeActions unbuild ms@2.0.0
+849 silly decomposeActions remove ms@2.0.0
+850 silly decomposeActions unbuild path-to-regexp@0.1.7
+851 silly decomposeActions remove path-to-regexp@0.1.7
+852 silly decomposeActions unbuild proxy-addr@2.0.6
+853 silly decomposeActions remove proxy-addr@2.0.6
+854 silly decomposeActions unbuild range-parser@1.2.1
+855 silly decomposeActions remove range-parser@1.2.1
+856 silly decomposeActions unbuild send@0.16.2
+857 silly decomposeActions remove send@0.16.2
+858 silly decomposeActions unbuild serve-static@1.13.2
+859 silly decomposeActions remove serve-static@1.13.2
+860 silly decomposeActions unbuild setprototypeof@1.1.0
+861 silly decomposeActions remove setprototypeof@1.1.0
+862 silly decomposeActions unbuild statuses@1.5.0
+863 silly decomposeActions remove statuses@1.5.0
+864 silly decomposeActions unbuild utils-merge@1.0.1
+865 silly decomposeActions remove utils-merge@1.0.1
+866 silly decomposeActions unbuild vary@1.1.2
+867 silly decomposeActions remove vary@1.1.2
+868 silly decomposeActions move mime-types@2.1.26
+869 silly decomposeActions build mime-types@2.1.26
+870 silly decomposeActions install mime-types@2.1.26
+871 silly decomposeActions postinstall mime-types@2.1.26
+872 silly decomposeActions refresh-package-json mime-types@2.1.26
+873 silly decomposeActions move negotiator@0.6.2
+874 silly decomposeActions build negotiator@0.6.2
+875 silly decomposeActions install negotiator@0.6.2
+876 silly decomposeActions postinstall negotiator@0.6.2
+877 silly decomposeActions refresh-package-json negotiator@0.6.2
+878 silly install executeActions
+879 silly doSerial global-install 508
+880 verbose correctMkdir C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\XXX\nodejs\node_cache\_locks correctMkdir not in flight; initializing
+881 verbose makeCacheDir UID & GID are irrelevant on win32
+882 verbose lock using C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\XXX\nodejs\node_cache\_locks\staging-17512a5eda782359.lock for C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\.staging
+883 silly doParallel extract 3
+884 silly extract depd@2.0.0
+885 silly extract safe-buffer@5.2.0
+886 silly extract express-session@1.17.0
+887 silly tarball trying depd@~2.0.0 by hash: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
+888 silly tarball trying safe-buffer@5.2.0 by hash: sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
+889 silly tarball trying express-session@^1.17.0 by hash: sha512-t4oX2z7uoSqATbMfsxWMbNjAL0T5zpvcJCk3Z9wnPPN7ibddhnmDZXHfEcoBMG2ojKXZoCyPMc5FbtK+G7SoDg==
+890 silly extract safe-buffer@5.2.0 extracted to C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\.staging\safe-buffer-e8994d95 (39ms)
+891 silly extract express-session@^1.17.0 extracted to C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\.staging\express-session-770cdd58 (47ms)
+892 silly extract depd@~2.0.0 extracted to C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\.staging\depd-68998e90 (49ms)
+893 timing action:extract Completed in 51ms
+894 silly doReverseSerial unbuild 508
+895 silly unbuild vary@1.1.2
+896 info lifecycle vary@1.1.2~preuninstall: vary@1.1.2
+897 info lifecycle vary@1.1.2~uninstall: vary@1.1.2
+898 verbose unbuild rmStuff vary@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+899 info lifecycle vary@1.1.2~postuninstall: vary@1.1.2
+900 silly unbuild utils-merge@1.0.1
+901 info lifecycle utils-merge@1.0.1~preuninstall: utils-merge@1.0.1
+902 info lifecycle utils-merge@1.0.1~uninstall: utils-merge@1.0.1
+903 verbose unbuild rmStuff utils-merge@1.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+904 info lifecycle utils-merge@1.0.1~postuninstall: utils-merge@1.0.1
+905 silly unbuild statuses@1.5.0
+906 info lifecycle statuses@1.5.0~preuninstall: statuses@1.5.0
+907 info lifecycle statuses@1.5.0~uninstall: statuses@1.5.0
+908 verbose unbuild rmStuff statuses@1.5.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+909 info lifecycle statuses@1.5.0~postuninstall: statuses@1.5.0
+910 silly unbuild setprototypeof@1.1.0
+911 info lifecycle setprototypeof@1.1.0~preuninstall: setprototypeof@1.1.0
+912 info lifecycle setprototypeof@1.1.0~uninstall: setprototypeof@1.1.0
+913 verbose unbuild rmStuff setprototypeof@1.1.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+914 info lifecycle setprototypeof@1.1.0~postuninstall: setprototypeof@1.1.0
+915 silly unbuild serve-static@1.13.2
+916 info lifecycle serve-static@1.13.2~preuninstall: serve-static@1.13.2
+917 info lifecycle serve-static@1.13.2~uninstall: serve-static@1.13.2
+918 verbose unbuild rmStuff serve-static@1.13.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+919 info lifecycle serve-static@1.13.2~postuninstall: serve-static@1.13.2
+920 silly unbuild send@0.16.2
+921 info lifecycle send@0.16.2~preuninstall: send@0.16.2
+922 info lifecycle send@0.16.2~uninstall: send@0.16.2
+923 verbose unbuild rmStuff send@0.16.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+924 info lifecycle send@0.16.2~postuninstall: send@0.16.2
+925 silly unbuild range-parser@1.2.1
+926 info lifecycle range-parser@1.2.1~preuninstall: range-parser@1.2.1
+927 info lifecycle range-parser@1.2.1~uninstall: range-parser@1.2.1
+928 verbose unbuild rmStuff range-parser@1.2.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+929 info lifecycle range-parser@1.2.1~postuninstall: range-parser@1.2.1
+930 silly unbuild proxy-addr@2.0.6
+931 info lifecycle proxy-addr@2.0.6~preuninstall: proxy-addr@2.0.6
+932 info lifecycle proxy-addr@2.0.6~uninstall: proxy-addr@2.0.6
+933 verbose unbuild rmStuff proxy-addr@2.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+934 info lifecycle proxy-addr@2.0.6~postuninstall: proxy-addr@2.0.6
+935 silly unbuild path-to-regexp@0.1.7
+936 info lifecycle path-to-regexp@0.1.7~preuninstall: path-to-regexp@0.1.7
+937 info lifecycle path-to-regexp@0.1.7~uninstall: path-to-regexp@0.1.7
+938 verbose unbuild rmStuff path-to-regexp@0.1.7 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+939 info lifecycle path-to-regexp@0.1.7~postuninstall: path-to-regexp@0.1.7
+940 silly unbuild ms@2.0.0
+941 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+942 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+943 verbose unbuild rmStuff ms@2.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+944 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+945 silly unbuild mime@1.4.1
+946 info lifecycle mime@1.4.1~preuninstall: mime@1.4.1
+947 info lifecycle mime@1.4.1~uninstall: mime@1.4.1
+948 verbose unbuild rmStuff mime@1.4.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+949 info lifecycle mime@1.4.1~postuninstall: mime@1.4.1
+950 silly unbuild methods@1.1.2
+951 info lifecycle methods@1.1.2~preuninstall: methods@1.1.2
+952 info lifecycle methods@1.1.2~uninstall: methods@1.1.2
+953 verbose unbuild rmStuff methods@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+954 info lifecycle methods@1.1.2~postuninstall: methods@1.1.2
+955 silly unbuild merge-descriptors@1.0.1
+956 info lifecycle merge-descriptors@1.0.1~preuninstall: merge-descriptors@1.0.1
+957 info lifecycle merge-descriptors@1.0.1~uninstall: merge-descriptors@1.0.1
+958 verbose unbuild rmStuff merge-descriptors@1.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+959 info lifecycle merge-descriptors@1.0.1~postuninstall: merge-descriptors@1.0.1
+960 silly unbuild ipaddr.js@1.9.1
+961 info lifecycle ipaddr.js@1.9.1~preuninstall: ipaddr.js@1.9.1
+962 info lifecycle ipaddr.js@1.9.1~uninstall: ipaddr.js@1.9.1
+963 verbose unbuild rmStuff ipaddr.js@1.9.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+964 info lifecycle ipaddr.js@1.9.1~postuninstall: ipaddr.js@1.9.1
+965 silly unbuild inherits@2.0.3
+966 info lifecycle inherits@2.0.3~preuninstall: inherits@2.0.3
+967 info lifecycle inherits@2.0.3~uninstall: inherits@2.0.3
+968 verbose unbuild rmStuff inherits@2.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+969 info lifecycle inherits@2.0.3~postuninstall: inherits@2.0.3
+970 silly unbuild fresh@0.5.2
+971 info lifecycle fresh@0.5.2~preuninstall: fresh@0.5.2
+972 info lifecycle fresh@0.5.2~uninstall: fresh@0.5.2
+973 verbose unbuild rmStuff fresh@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+974 info lifecycle fresh@0.5.2~postuninstall: fresh@0.5.2
+975 silly unbuild forwarded@0.1.2
+976 info lifecycle forwarded@0.1.2~preuninstall: forwarded@0.1.2
+977 info lifecycle forwarded@0.1.2~uninstall: forwarded@0.1.2
+978 verbose unbuild rmStuff forwarded@0.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+979 info lifecycle forwarded@0.1.2~postuninstall: forwarded@0.1.2
+980 silly unbuild finalhandler@1.1.1
+981 info lifecycle finalhandler@1.1.1~preuninstall: finalhandler@1.1.1
+982 info lifecycle finalhandler@1.1.1~uninstall: finalhandler@1.1.1
+983 verbose unbuild rmStuff finalhandler@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+984 info lifecycle finalhandler@1.1.1~postuninstall: finalhandler@1.1.1
+985 silly unbuild express-session@1.17.0
+986 info lifecycle express-session@1.17.0~preuninstall: express-session@1.17.0
+987 info lifecycle express-session@1.17.0~uninstall: express-session@1.17.0
+988 verbose unbuild rmStuff express-session@1.17.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+989 info lifecycle express-session@1.17.0~postuninstall: express-session@1.17.0
+990 silly unbuild etag@1.8.1
+991 info lifecycle etag@1.8.1~preuninstall: etag@1.8.1
+992 info lifecycle etag@1.8.1~uninstall: etag@1.8.1
+993 verbose unbuild rmStuff etag@1.8.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+994 info lifecycle etag@1.8.1~postuninstall: etag@1.8.1
+995 silly unbuild escape-html@1.0.3
+996 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+997 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+998 verbose unbuild rmStuff escape-html@1.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+999 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+1000 silly unbuild encodeurl@1.0.2
+1001 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+1002 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+1003 verbose unbuild rmStuff encodeurl@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1004 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+1005 silly unbuild destroy@1.0.4
+1006 info lifecycle destroy@1.0.4~preuninstall: destroy@1.0.4
+1007 info lifecycle destroy@1.0.4~uninstall: destroy@1.0.4
+1008 verbose unbuild rmStuff destroy@1.0.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1009 info lifecycle destroy@1.0.4~postuninstall: destroy@1.0.4
+1010 silly unbuild content-disposition@0.5.2
+1011 info lifecycle content-disposition@0.5.2~preuninstall: content-disposition@0.5.2
+1012 info lifecycle content-disposition@0.5.2~uninstall: content-disposition@0.5.2
+1013 verbose unbuild rmStuff content-disposition@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1014 info lifecycle content-disposition@0.5.2~postuninstall: content-disposition@0.5.2
+1015 silly unbuild body-parser@1.18.3
+1016 info lifecycle body-parser@1.18.3~preuninstall: body-parser@1.18.3
+1017 info lifecycle body-parser@1.18.3~uninstall: body-parser@1.18.3
+1018 verbose unbuild rmStuff body-parser@1.18.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1019 info lifecycle body-parser@1.18.3~postuninstall: body-parser@1.18.3
+1020 silly unbuild basic-auth@2.0.1
+1021 info lifecycle basic-auth@2.0.1~preuninstall: basic-auth@2.0.1
+1022 info lifecycle basic-auth@2.0.1~uninstall: basic-auth@2.0.1
+1023 verbose unbuild rmStuff basic-auth@2.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1024 info lifecycle basic-auth@2.0.1~postuninstall: basic-auth@2.0.1
+1025 silly unbuild array-flatten@1.1.1
+1026 info lifecycle array-flatten@1.1.1~preuninstall: array-flatten@1.1.1
+1027 info lifecycle array-flatten@1.1.1~uninstall: array-flatten@1.1.1
+1028 verbose unbuild rmStuff array-flatten@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1029 info lifecycle array-flatten@1.1.1~postuninstall: array-flatten@1.1.1
+1030 silly unbuild accepts@1.3.7
+1031 info lifecycle accepts@1.3.7~preuninstall: accepts@1.3.7
+1032 info lifecycle accepts@1.3.7~uninstall: accepts@1.3.7
+1033 verbose unbuild rmStuff accepts@1.3.7 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1034 info lifecycle accepts@1.3.7~postuninstall: accepts@1.3.7
+1035 silly unbuild vary@1.1.2
+1036 info lifecycle vary@1.1.2~preuninstall: vary@1.1.2
+1037 info lifecycle vary@1.1.2~uninstall: vary@1.1.2
+1038 verbose unbuild rmStuff vary@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1039 info lifecycle vary@1.1.2~postuninstall: vary@1.1.2
+1040 silly unbuild utils-merge@1.0.1
+1041 info lifecycle utils-merge@1.0.1~preuninstall: utils-merge@1.0.1
+1042 info lifecycle utils-merge@1.0.1~uninstall: utils-merge@1.0.1
+1043 verbose unbuild rmStuff utils-merge@1.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1044 info lifecycle utils-merge@1.0.1~postuninstall: utils-merge@1.0.1
+1045 silly unbuild unpipe@1.0.0
+1046 info lifecycle unpipe@1.0.0~preuninstall: unpipe@1.0.0
+1047 info lifecycle unpipe@1.0.0~uninstall: unpipe@1.0.0
+1048 verbose unbuild rmStuff unpipe@1.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1049 info lifecycle unpipe@1.0.0~postuninstall: unpipe@1.0.0
+1050 silly unbuild uid-safe@2.1.5
+1051 info lifecycle uid-safe@2.1.5~preuninstall: uid-safe@2.1.5
+1052 info lifecycle uid-safe@2.1.5~uninstall: uid-safe@2.1.5
+1053 verbose unbuild rmStuff uid-safe@2.1.5 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1054 info lifecycle uid-safe@2.1.5~postuninstall: uid-safe@2.1.5
+1055 silly unbuild type-is@1.6.18
+1056 info lifecycle type-is@1.6.18~preuninstall: type-is@1.6.18
+1057 info lifecycle type-is@1.6.18~uninstall: type-is@1.6.18
+1058 verbose unbuild rmStuff type-is@1.6.18 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1059 info lifecycle type-is@1.6.18~postuninstall: type-is@1.6.18
+1060 silly unbuild statuses@1.5.0
+1061 info lifecycle statuses@1.5.0~preuninstall: statuses@1.5.0
+1062 info lifecycle statuses@1.5.0~uninstall: statuses@1.5.0
+1063 verbose unbuild rmStuff statuses@1.5.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1064 info lifecycle statuses@1.5.0~postuninstall: statuses@1.5.0
+1065 silly unbuild statuses@1.4.0
+1066 info lifecycle statuses@1.4.0~preuninstall: statuses@1.4.0
+1067 info lifecycle statuses@1.4.0~uninstall: statuses@1.4.0
+1068 verbose unbuild rmStuff statuses@1.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1069 info lifecycle statuses@1.4.0~postuninstall: statuses@1.4.0
+1070 silly unbuild setprototypeof@1.1.0
+1071 info lifecycle setprototypeof@1.1.0~preuninstall: setprototypeof@1.1.0
+1072 info lifecycle setprototypeof@1.1.0~uninstall: setprototypeof@1.1.0
+1073 verbose unbuild rmStuff setprototypeof@1.1.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1074 info lifecycle setprototypeof@1.1.0~postuninstall: setprototypeof@1.1.0
+1075 silly unbuild serve-static@1.13.2
+1076 info lifecycle serve-static@1.13.2~preuninstall: serve-static@1.13.2
+1077 info lifecycle serve-static@1.13.2~uninstall: serve-static@1.13.2
+1078 verbose unbuild rmStuff serve-static@1.13.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1079 info lifecycle serve-static@1.13.2~postuninstall: serve-static@1.13.2
+1080 silly unbuild send@0.16.2
+1081 info lifecycle send@0.16.2~preuninstall: send@0.16.2
+1082 info lifecycle send@0.16.2~uninstall: send@0.16.2
+1083 verbose unbuild rmStuff send@0.16.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1084 info lifecycle send@0.16.2~postuninstall: send@0.16.2
+1085 silly unbuild safer-buffer@2.1.2
+1086 info lifecycle safer-buffer@2.1.2~preuninstall: safer-buffer@2.1.2
+1087 info lifecycle safer-buffer@2.1.2~uninstall: safer-buffer@2.1.2
+1088 verbose unbuild rmStuff safer-buffer@2.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1089 info lifecycle safer-buffer@2.1.2~postuninstall: safer-buffer@2.1.2
+1090 silly unbuild safe-buffer@5.2.0
+1091 info lifecycle safe-buffer@5.2.0~preuninstall: safe-buffer@5.2.0
+1092 info lifecycle safe-buffer@5.2.0~uninstall: safe-buffer@5.2.0
+1093 verbose unbuild rmStuff safe-buffer@5.2.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1094 info lifecycle safe-buffer@5.2.0~postuninstall: safe-buffer@5.2.0
+1095 silly unbuild safe-buffer@5.1.2
+1096 info lifecycle safe-buffer@5.1.2~preuninstall: safe-buffer@5.1.2
+1097 info lifecycle safe-buffer@5.1.2~uninstall: safe-buffer@5.1.2
+1098 verbose unbuild rmStuff safe-buffer@5.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1099 info lifecycle safe-buffer@5.1.2~postuninstall: safe-buffer@5.1.2
+1100 silly unbuild raw-body@2.3.3
+1101 info lifecycle raw-body@2.3.3~preuninstall: raw-body@2.3.3
+1102 info lifecycle raw-body@2.3.3~uninstall: raw-body@2.3.3
+1103 verbose unbuild rmStuff raw-body@2.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1104 info lifecycle raw-body@2.3.3~postuninstall: raw-body@2.3.3
+1105 silly unbuild range-parser@1.2.1
+1106 info lifecycle range-parser@1.2.1~preuninstall: range-parser@1.2.1
+1107 info lifecycle range-parser@1.2.1~uninstall: range-parser@1.2.1
+1108 verbose unbuild rmStuff range-parser@1.2.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1109 info lifecycle range-parser@1.2.1~postuninstall: range-parser@1.2.1
+1110 silly unbuild random-bytes@1.0.0
+1111 info lifecycle random-bytes@1.0.0~preuninstall: random-bytes@1.0.0
+1112 info lifecycle random-bytes@1.0.0~uninstall: random-bytes@1.0.0
+1113 verbose unbuild rmStuff random-bytes@1.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1114 info lifecycle random-bytes@1.0.0~postuninstall: random-bytes@1.0.0
+1115 silly unbuild qs@6.5.2
+1116 info lifecycle qs@6.5.2~preuninstall: qs@6.5.2
+1117 info lifecycle qs@6.5.2~uninstall: qs@6.5.2
+1118 verbose unbuild rmStuff qs@6.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1119 info lifecycle qs@6.5.2~postuninstall: qs@6.5.2
+1120 silly unbuild proxy-addr@2.0.6
+1121 info lifecycle proxy-addr@2.0.6~preuninstall: proxy-addr@2.0.6
+1122 info lifecycle proxy-addr@2.0.6~uninstall: proxy-addr@2.0.6
+1123 verbose unbuild rmStuff proxy-addr@2.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1124 info lifecycle proxy-addr@2.0.6~postuninstall: proxy-addr@2.0.6
+1125 silly unbuild path-to-regexp@0.1.7
+1126 info lifecycle path-to-regexp@0.1.7~preuninstall: path-to-regexp@0.1.7
+1127 info lifecycle path-to-regexp@0.1.7~uninstall: path-to-regexp@0.1.7
+1128 verbose unbuild rmStuff path-to-regexp@0.1.7 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1129 info lifecycle path-to-regexp@0.1.7~postuninstall: path-to-regexp@0.1.7
+1130 silly unbuild parseurl@1.3.3
+1131 info lifecycle parseurl@1.3.3~preuninstall: parseurl@1.3.3
+1132 info lifecycle parseurl@1.3.3~uninstall: parseurl@1.3.3
+1133 verbose unbuild rmStuff parseurl@1.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1134 info lifecycle parseurl@1.3.3~postuninstall: parseurl@1.3.3
+1135 silly unbuild on-headers@1.0.2
+1136 info lifecycle on-headers@1.0.2~preuninstall: on-headers@1.0.2
+1137 info lifecycle on-headers@1.0.2~uninstall: on-headers@1.0.2
+1138 verbose unbuild rmStuff on-headers@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1139 info lifecycle on-headers@1.0.2~postuninstall: on-headers@1.0.2
+1140 silly unbuild on-finished@2.3.0
+1141 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+1142 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+1143 verbose unbuild rmStuff on-finished@2.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1144 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+1145 silly unbuild nodemailer@6.4.6
+1146 info lifecycle nodemailer@6.4.6~preuninstall: nodemailer@6.4.6
+1147 info lifecycle nodemailer@6.4.6~uninstall: nodemailer@6.4.6
+1148 verbose unbuild rmStuff nodemailer@6.4.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1149 info lifecycle nodemailer@6.4.6~postuninstall: nodemailer@6.4.6
+1150 silly unbuild negotiator@0.6.2
+1151 info lifecycle negotiator@0.6.2~preuninstall: negotiator@0.6.2
+1152 info lifecycle negotiator@0.6.2~uninstall: negotiator@0.6.2
+1153 verbose unbuild rmStuff negotiator@0.6.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1154 info lifecycle negotiator@0.6.2~postuninstall: negotiator@0.6.2
+1155 silly unbuild ms@2.0.0
+1156 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+1157 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+1158 verbose unbuild rmStuff ms@2.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1159 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+1160 silly unbuild morgan@1.9.1
+1161 info lifecycle morgan@1.9.1~preuninstall: morgan@1.9.1
+1162 info lifecycle morgan@1.9.1~uninstall: morgan@1.9.1
+1163 verbose unbuild rmStuff morgan@1.9.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1164 info lifecycle morgan@1.9.1~postuninstall: morgan@1.9.1
+1165 silly unbuild mime@1.4.1
+1166 info lifecycle mime@1.4.1~preuninstall: mime@1.4.1
+1167 info lifecycle mime@1.4.1~uninstall: mime@1.4.1
+1168 verbose unbuild rmStuff mime@1.4.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1169 info lifecycle mime@1.4.1~postuninstall: mime@1.4.1
+1170 silly unbuild mime-types@2.1.26
+1171 info lifecycle mime-types@2.1.26~preuninstall: mime-types@2.1.26
+1172 info lifecycle mime-types@2.1.26~uninstall: mime-types@2.1.26
+1173 verbose unbuild rmStuff mime-types@2.1.26 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1174 info lifecycle mime-types@2.1.26~postuninstall: mime-types@2.1.26
+1175 silly unbuild mime-db@1.43.0
+1176 info lifecycle mime-db@1.43.0~preuninstall: mime-db@1.43.0
+1177 info lifecycle mime-db@1.43.0~uninstall: mime-db@1.43.0
+1178 verbose unbuild rmStuff mime-db@1.43.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1179 info lifecycle mime-db@1.43.0~postuninstall: mime-db@1.43.0
+1180 silly unbuild methods@1.1.2
+1181 info lifecycle methods@1.1.2~preuninstall: methods@1.1.2
+1182 info lifecycle methods@1.1.2~uninstall: methods@1.1.2
+1183 verbose unbuild rmStuff methods@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1184 info lifecycle methods@1.1.2~postuninstall: methods@1.1.2
+1185 silly unbuild merge-descriptors@1.0.1
+1186 info lifecycle merge-descriptors@1.0.1~preuninstall: merge-descriptors@1.0.1
+1187 info lifecycle merge-descriptors@1.0.1~uninstall: merge-descriptors@1.0.1
+1188 verbose unbuild rmStuff merge-descriptors@1.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1189 info lifecycle merge-descriptors@1.0.1~postuninstall: merge-descriptors@1.0.1
+1190 silly unbuild media-typer@0.3.0
+1191 info lifecycle media-typer@0.3.0~preuninstall: media-typer@0.3.0
+1192 info lifecycle media-typer@0.3.0~uninstall: media-typer@0.3.0
+1193 verbose unbuild rmStuff media-typer@0.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1194 info lifecycle media-typer@0.3.0~postuninstall: media-typer@0.3.0
+1195 silly unbuild ipaddr.js@1.9.1
+1196 info lifecycle ipaddr.js@1.9.1~preuninstall: ipaddr.js@1.9.1
+1197 info lifecycle ipaddr.js@1.9.1~uninstall: ipaddr.js@1.9.1
+1198 verbose unbuild rmStuff ipaddr.js@1.9.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1199 info lifecycle ipaddr.js@1.9.1~postuninstall: ipaddr.js@1.9.1
+1200 silly unbuild inherits@2.0.3
+1201 info lifecycle inherits@2.0.3~preuninstall: inherits@2.0.3
+1202 info lifecycle inherits@2.0.3~uninstall: inherits@2.0.3
+1203 verbose unbuild rmStuff inherits@2.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1204 info lifecycle inherits@2.0.3~postuninstall: inherits@2.0.3
+1205 silly unbuild iconv-lite@0.4.23
+1206 info lifecycle iconv-lite@0.4.23~preuninstall: iconv-lite@0.4.23
+1207 info lifecycle iconv-lite@0.4.23~uninstall: iconv-lite@0.4.23
+1208 verbose unbuild rmStuff iconv-lite@0.4.23 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1209 info lifecycle iconv-lite@0.4.23~postuninstall: iconv-lite@0.4.23
+1210 silly unbuild http-errors@1.6.3
+1211 info lifecycle http-errors@1.6.3~preuninstall: http-errors@1.6.3
+1212 info lifecycle http-errors@1.6.3~uninstall: http-errors@1.6.3
+1213 verbose unbuild rmStuff http-errors@1.6.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1214 info lifecycle http-errors@1.6.3~postuninstall: http-errors@1.6.3
+1215 silly unbuild fresh@0.5.2
+1216 info lifecycle fresh@0.5.2~preuninstall: fresh@0.5.2
+1217 info lifecycle fresh@0.5.2~uninstall: fresh@0.5.2
+1218 verbose unbuild rmStuff fresh@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1219 info lifecycle fresh@0.5.2~postuninstall: fresh@0.5.2
+1220 silly unbuild forwarded@0.1.2
+1221 info lifecycle forwarded@0.1.2~preuninstall: forwarded@0.1.2
+1222 info lifecycle forwarded@0.1.2~uninstall: forwarded@0.1.2
+1223 verbose unbuild rmStuff forwarded@0.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1224 info lifecycle forwarded@0.1.2~postuninstall: forwarded@0.1.2
+1225 silly unbuild finalhandler@1.1.1
+1226 info lifecycle finalhandler@1.1.1~preuninstall: finalhandler@1.1.1
+1227 info lifecycle finalhandler@1.1.1~uninstall: finalhandler@1.1.1
+1228 verbose unbuild rmStuff finalhandler@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1229 info lifecycle finalhandler@1.1.1~postuninstall: finalhandler@1.1.1
+1230 silly unbuild express@4.16.4
+1231 info lifecycle express@4.16.4~preuninstall: express@4.16.4
+1232 info lifecycle express@4.16.4~uninstall: express@4.16.4
+1233 verbose unbuild rmStuff express@4.16.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1234 info lifecycle express@4.16.4~postuninstall: express@4.16.4
+1235 silly unbuild express-session@1.17.0
+1236 info lifecycle express-session@1.17.0~preuninstall: express-session@1.17.0
+1237 info lifecycle express-session@1.17.0~uninstall: express-session@1.17.0
+1238 verbose unbuild rmStuff express-session@1.17.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1239 info lifecycle express-session@1.17.0~postuninstall: express-session@1.17.0
+1240 silly unbuild etag@1.8.1
+1241 info lifecycle etag@1.8.1~preuninstall: etag@1.8.1
+1242 info lifecycle etag@1.8.1~uninstall: etag@1.8.1
+1243 verbose unbuild rmStuff etag@1.8.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1244 info lifecycle etag@1.8.1~postuninstall: etag@1.8.1
+1245 silly unbuild escape-html@1.0.3
+1246 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+1247 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+1248 verbose unbuild rmStuff escape-html@1.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1249 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+1250 silly unbuild encodeurl@1.0.2
+1251 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+1252 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+1253 verbose unbuild rmStuff encodeurl@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1254 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+1255 silly unbuild ejs@2.6.2
+1256 info lifecycle ejs@2.6.2~preuninstall: ejs@2.6.2
+1257 info lifecycle ejs@2.6.2~uninstall: ejs@2.6.2
+1258 verbose unbuild rmStuff ejs@2.6.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1259 info lifecycle ejs@2.6.2~postuninstall: ejs@2.6.2
+1260 silly unbuild ee-first@1.1.1
+1261 info lifecycle ee-first@1.1.1~preuninstall: ee-first@1.1.1
+1262 info lifecycle ee-first@1.1.1~uninstall: ee-first@1.1.1
+1263 verbose unbuild rmStuff ee-first@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1264 info lifecycle ee-first@1.1.1~postuninstall: ee-first@1.1.1
+1265 silly unbuild destroy@1.0.4
+1266 info lifecycle destroy@1.0.4~preuninstall: destroy@1.0.4
+1267 info lifecycle destroy@1.0.4~uninstall: destroy@1.0.4
+1268 verbose unbuild rmStuff destroy@1.0.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1269 info lifecycle destroy@1.0.4~postuninstall: destroy@1.0.4
+1270 silly unbuild depd@2.0.0
+1271 info lifecycle depd@2.0.0~preuninstall: depd@2.0.0
+1272 info lifecycle depd@2.0.0~uninstall: depd@2.0.0
+1273 verbose unbuild rmStuff depd@2.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1274 info lifecycle depd@2.0.0~postuninstall: depd@2.0.0
+1275 silly unbuild depd@1.1.2
+1276 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+1277 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+1278 verbose unbuild rmStuff depd@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1279 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+1280 silly unbuild debug@2.6.9
+1281 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1282 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1283 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1284 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1285 silly unbuild cookie@0.4.0
+1286 info lifecycle cookie@0.4.0~preuninstall: cookie@0.4.0
+1287 info lifecycle cookie@0.4.0~uninstall: cookie@0.4.0
+1288 verbose unbuild rmStuff cookie@0.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1289 info lifecycle cookie@0.4.0~postuninstall: cookie@0.4.0
+1290 silly unbuild cookie@0.3.1
+1291 info lifecycle cookie@0.3.1~preuninstall: cookie@0.3.1
+1292 info lifecycle cookie@0.3.1~uninstall: cookie@0.3.1
+1293 verbose unbuild rmStuff cookie@0.3.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1294 info lifecycle cookie@0.3.1~postuninstall: cookie@0.3.1
+1295 silly unbuild cookie-signature@1.0.6
+1296 info lifecycle cookie-signature@1.0.6~preuninstall: cookie-signature@1.0.6
+1297 info lifecycle cookie-signature@1.0.6~uninstall: cookie-signature@1.0.6
+1298 verbose unbuild rmStuff cookie-signature@1.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1299 info lifecycle cookie-signature@1.0.6~postuninstall: cookie-signature@1.0.6
+1300 silly unbuild cookie-parser@1.4.5
+1301 info lifecycle cookie-parser@1.4.5~preuninstall: cookie-parser@1.4.5
+1302 info lifecycle cookie-parser@1.4.5~uninstall: cookie-parser@1.4.5
+1303 verbose unbuild rmStuff cookie-parser@1.4.5 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1304 info lifecycle cookie-parser@1.4.5~postuninstall: cookie-parser@1.4.5
+1305 silly unbuild content-type@1.0.4
+1306 info lifecycle content-type@1.0.4~preuninstall: content-type@1.0.4
+1307 info lifecycle content-type@1.0.4~uninstall: content-type@1.0.4
+1308 verbose unbuild rmStuff content-type@1.0.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1309 info lifecycle content-type@1.0.4~postuninstall: content-type@1.0.4
+1310 silly unbuild content-disposition@0.5.2
+1311 info lifecycle content-disposition@0.5.2~preuninstall: content-disposition@0.5.2
+1312 info lifecycle content-disposition@0.5.2~uninstall: content-disposition@0.5.2
+1313 verbose unbuild rmStuff content-disposition@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1314 info lifecycle content-disposition@0.5.2~postuninstall: content-disposition@0.5.2
+1315 silly unbuild bytes@3.0.0
+1316 info lifecycle bytes@3.0.0~preuninstall: bytes@3.0.0
+1317 info lifecycle bytes@3.0.0~uninstall: bytes@3.0.0
+1318 verbose unbuild rmStuff bytes@3.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1319 info lifecycle bytes@3.0.0~postuninstall: bytes@3.0.0
+1320 silly unbuild body-parser@1.18.3
+1321 info lifecycle body-parser@1.18.3~preuninstall: body-parser@1.18.3
+1322 info lifecycle body-parser@1.18.3~uninstall: body-parser@1.18.3
+1323 verbose unbuild rmStuff body-parser@1.18.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1324 info lifecycle body-parser@1.18.3~postuninstall: body-parser@1.18.3
+1325 silly unbuild basic-auth@2.0.1
+1326 info lifecycle basic-auth@2.0.1~preuninstall: basic-auth@2.0.1
+1327 info lifecycle basic-auth@2.0.1~uninstall: basic-auth@2.0.1
+1328 verbose unbuild rmStuff basic-auth@2.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1329 info lifecycle basic-auth@2.0.1~postuninstall: basic-auth@2.0.1
+1330 silly unbuild array-flatten@1.1.1
+1331 info lifecycle array-flatten@1.1.1~preuninstall: array-flatten@1.1.1
+1332 info lifecycle array-flatten@1.1.1~uninstall: array-flatten@1.1.1
+1333 verbose unbuild rmStuff array-flatten@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1334 info lifecycle array-flatten@1.1.1~postuninstall: array-flatten@1.1.1
+1335 silly unbuild accepts@1.3.7
+1336 info lifecycle accepts@1.3.7~preuninstall: accepts@1.3.7
+1337 info lifecycle accepts@1.3.7~uninstall: accepts@1.3.7
+1338 verbose unbuild rmStuff accepts@1.3.7 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1339 info lifecycle accepts@1.3.7~postuninstall: accepts@1.3.7
+1340 silly unbuild uid-safe@2.1.5
+1341 info lifecycle uid-safe@2.1.5~preuninstall: uid-safe@2.1.5
+1342 info lifecycle uid-safe@2.1.5~uninstall: uid-safe@2.1.5
+1343 verbose unbuild rmStuff uid-safe@2.1.5 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1344 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1345 info lifecycle uid-safe@2.1.5~postuninstall: uid-safe@2.1.5
+1346 silly unbuild random-bytes@1.0.0
+1347 info lifecycle random-bytes@1.0.0~preuninstall: random-bytes@1.0.0
+1348 info lifecycle random-bytes@1.0.0~uninstall: random-bytes@1.0.0
+1349 verbose unbuild rmStuff random-bytes@1.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1350 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_uid-safe@2.1.5@uid-safe\node_modules
+1351 info lifecycle random-bytes@1.0.0~postuninstall: random-bytes@1.0.0
+1352 silly unbuild type-is@1.6.18
+1353 info lifecycle type-is@1.6.18~preuninstall: type-is@1.6.18
+1354 info lifecycle type-is@1.6.18~uninstall: type-is@1.6.18
+1355 verbose unbuild rmStuff type-is@1.6.18 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1356 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1357 info lifecycle type-is@1.6.18~postuninstall: type-is@1.6.18
+1358 silly unbuild body-parser@1.18.3
+1359 info lifecycle body-parser@1.18.3~preuninstall: body-parser@1.18.3
+1360 info lifecycle body-parser@1.18.3~uninstall: body-parser@1.18.3
+1361 verbose unbuild rmStuff body-parser@1.18.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1362 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1363 info lifecycle body-parser@1.18.3~postuninstall: body-parser@1.18.3
+1364 silly unbuild type-is@1.6.18
+1365 info lifecycle type-is@1.6.18~preuninstall: type-is@1.6.18
+1366 info lifecycle type-is@1.6.18~uninstall: type-is@1.6.18
+1367 verbose unbuild rmStuff type-is@1.6.18 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1368 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1369 info lifecycle type-is@1.6.18~postuninstall: type-is@1.6.18
+1370 silly unbuild mime-types@2.1.26
+1371 info lifecycle mime-types@2.1.26~preuninstall: mime-types@2.1.26
+1372 info lifecycle mime-types@2.1.26~uninstall: mime-types@2.1.26
+1373 verbose unbuild rmStuff mime-types@2.1.26 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1374 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_type-is@1.6.18@type-is\node_modules
+1375 info lifecycle mime-types@2.1.26~postuninstall: mime-types@2.1.26
+1376 silly unbuild media-typer@0.3.0
+1377 info lifecycle media-typer@0.3.0~preuninstall: media-typer@0.3.0
+1378 info lifecycle media-typer@0.3.0~uninstall: media-typer@0.3.0
+1379 verbose unbuild rmStuff media-typer@0.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1380 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_type-is@1.6.18@type-is\node_modules
+1381 info lifecycle media-typer@0.3.0~postuninstall: media-typer@0.3.0
+1382 silly unbuild serve-static@1.13.2
+1383 info lifecycle serve-static@1.13.2~preuninstall: serve-static@1.13.2
+1384 info lifecycle serve-static@1.13.2~uninstall: serve-static@1.13.2
+1385 verbose unbuild rmStuff serve-static@1.13.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1386 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1387 info lifecycle serve-static@1.13.2~postuninstall: serve-static@1.13.2
+1388 silly unbuild send@0.16.2
+1389 info lifecycle send@0.16.2~preuninstall: send@0.16.2
+1390 info lifecycle send@0.16.2~uninstall: send@0.16.2
+1391 verbose unbuild rmStuff send@0.16.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1392 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules
+1393 info lifecycle send@0.16.2~postuninstall: send@0.16.2
+1394 silly unbuild parseurl@1.3.3
+1395 info lifecycle parseurl@1.3.3~preuninstall: parseurl@1.3.3
+1396 info lifecycle parseurl@1.3.3~uninstall: parseurl@1.3.3
+1397 verbose unbuild rmStuff parseurl@1.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1398 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules
+1399 info lifecycle parseurl@1.3.3~postuninstall: parseurl@1.3.3
+1400 silly unbuild escape-html@1.0.3
+1401 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+1402 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+1403 verbose unbuild rmStuff escape-html@1.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1404 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules
+1405 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+1406 silly unbuild encodeurl@1.0.2
+1407 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+1408 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+1409 verbose unbuild rmStuff encodeurl@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1410 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules
+1411 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+1412 silly unbuild send@0.16.2
+1413 info lifecycle send@0.16.2~preuninstall: send@0.16.2
+1414 info lifecycle send@0.16.2~uninstall: send@0.16.2
+1415 verbose unbuild rmStuff send@0.16.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1416 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1417 info lifecycle send@0.16.2~postuninstall: send@0.16.2
+1418 silly unbuild statuses@1.4.0
+1419 info lifecycle statuses@1.4.0~preuninstall: statuses@1.4.0
+1420 info lifecycle statuses@1.4.0~uninstall: statuses@1.4.0
+1421 verbose unbuild rmStuff statuses@1.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1422 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1423 info lifecycle statuses@1.4.0~postuninstall: statuses@1.4.0
+1424 silly unbuild range-parser@1.2.1
+1425 info lifecycle range-parser@1.2.1~preuninstall: range-parser@1.2.1
+1426 info lifecycle range-parser@1.2.1~uninstall: range-parser@1.2.1
+1427 verbose unbuild rmStuff range-parser@1.2.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1428 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1429 info lifecycle range-parser@1.2.1~postuninstall: range-parser@1.2.1
+1430 silly unbuild on-finished@2.3.0
+1431 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+1432 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+1433 verbose unbuild rmStuff on-finished@2.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1434 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1435 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+1436 silly unbuild ms@2.0.0
+1437 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+1438 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+1439 verbose unbuild rmStuff ms@2.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1440 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1441 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+1442 silly unbuild mime@1.4.1
+1443 info lifecycle mime@1.4.1~preuninstall: mime@1.4.1
+1444 info lifecycle mime@1.4.1~uninstall: mime@1.4.1
+1445 verbose unbuild rmStuff mime@1.4.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1446 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1447 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.ps1 is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1448 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime\cli.js is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1449 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.ps1 is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime
+1450 silly gentlyRm parent.path = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1451 silly gentlyRm parent.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1452 silly gentlyRm target.path =  C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.ps1
+1453 silly gentlyRm target.symlink = ../../../_mime@1.4.1@mime/cli.js
+1454 silly gentlyRm target.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.ps1 is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1455 silly gentlyRm target.inParent =  {
+1455 silly gentlyRm   target: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_mime@1.4.1@mime\\cli.js',
+1455 silly gentlyRm   path: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_mime@1.4.1@mime'
+1455 silly gentlyRm }
+1456 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.cmd is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1457 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime\cli.js is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1458 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.cmd is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime
+1459 silly gentlyRm parent.path = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1460 silly gentlyRm parent.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1461 silly gentlyRm target.path =  C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.cmd
+1462 silly gentlyRm target.symlink = ..\..\..\_mime@1.4.1@mime\cli.js
+1463 silly gentlyRm target.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime.cmd is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1464 silly gentlyRm target.inParent =  {
+1464 silly gentlyRm   target: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_mime@1.4.1@mime\\cli.js',
+1464 silly gentlyRm   path: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_mime@1.4.1@mime'
+1464 silly gentlyRm }
+1465 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1466 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime\cli.js is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1467 silly isEverInside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime is not inside C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime
+1468 silly gentlyRm parent.path = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+1469 silly gentlyRm parent.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1470 silly gentlyRm target.path =  C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime
+1471 silly gentlyRm target.symlink = ../../../_mime@1.4.1@mime/cli.js
+1472 silly gentlyRm target.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin\mime is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1473 silly gentlyRm target.inParent =  {
+1473 silly gentlyRm   target: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_mime@1.4.1@mime\\cli.js',
+1473 silly gentlyRm   path: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_mime@1.4.1@mime'
+1473 silly gentlyRm }
+1474 silly gentlyRm parent.path = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1475 silly gentlyRm parent.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1476 silly gentlyRm target.path =  C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin
+1477 silly gentlyRm target.symlink = null
+1478 silly gentlyRm target.managed = C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\.bin is in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+1479 silly gentlyRm target.inParent =  {
+1479 silly gentlyRm   target: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_send@0.16.2@send\\node_modules\\.bin',
+1479 silly gentlyRm   path: 'C:\\Users\\86183\\Desktop\\notebook\\vue练习\\vue电影项目\\miaomiaoserver\\node_modules\\_send@0.16.2@send\\node_modules'
+1479 silly gentlyRm }
+1480 info lifecycle mime@1.4.1~postuninstall: mime@1.4.1
+1481 silly unbuild http-errors@1.6.3
+1482 info lifecycle http-errors@1.6.3~preuninstall: http-errors@1.6.3
+1483 info lifecycle http-errors@1.6.3~uninstall: http-errors@1.6.3
+1484 verbose unbuild rmStuff http-errors@1.6.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1485 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1486 info lifecycle http-errors@1.6.3~postuninstall: http-errors@1.6.3
+1487 silly unbuild fresh@0.5.2
+1488 info lifecycle fresh@0.5.2~preuninstall: fresh@0.5.2
+1489 info lifecycle fresh@0.5.2~uninstall: fresh@0.5.2
+1490 verbose unbuild rmStuff fresh@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1491 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1492 info lifecycle fresh@0.5.2~postuninstall: fresh@0.5.2
+1493 silly unbuild etag@1.8.1
+1494 info lifecycle etag@1.8.1~preuninstall: etag@1.8.1
+1495 info lifecycle etag@1.8.1~uninstall: etag@1.8.1
+1496 verbose unbuild rmStuff etag@1.8.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1497 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1498 info lifecycle etag@1.8.1~postuninstall: etag@1.8.1
+1499 silly unbuild escape-html@1.0.3
+1500 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+1501 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+1502 verbose unbuild rmStuff escape-html@1.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1503 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1504 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+1505 silly unbuild encodeurl@1.0.2
+1506 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+1507 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+1508 verbose unbuild rmStuff encodeurl@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1509 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1510 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+1511 silly unbuild destroy@1.0.4
+1512 info lifecycle destroy@1.0.4~preuninstall: destroy@1.0.4
+1513 info lifecycle destroy@1.0.4~uninstall: destroy@1.0.4
+1514 verbose unbuild rmStuff destroy@1.0.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1515 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1516 info lifecycle destroy@1.0.4~postuninstall: destroy@1.0.4
+1517 silly unbuild depd@1.1.2
+1518 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+1519 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+1520 verbose unbuild rmStuff depd@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1521 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1522 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+1523 silly unbuild debug@2.6.9
+1524 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1525 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1526 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1527 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules
+1528 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1529 silly unbuild raw-body@2.3.3
+1530 info lifecycle raw-body@2.3.3~preuninstall: raw-body@2.3.3
+1531 info lifecycle raw-body@2.3.3~uninstall: raw-body@2.3.3
+1532 verbose unbuild rmStuff raw-body@2.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1533 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1534 info lifecycle raw-body@2.3.3~postuninstall: raw-body@2.3.3
+1535 silly unbuild unpipe@1.0.0
+1536 info lifecycle unpipe@1.0.0~preuninstall: unpipe@1.0.0
+1537 info lifecycle unpipe@1.0.0~uninstall: unpipe@1.0.0
+1538 verbose unbuild rmStuff unpipe@1.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1539 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules
+1540 info lifecycle unpipe@1.0.0~postuninstall: unpipe@1.0.0
+1541 silly unbuild iconv-lite@0.4.23
+1542 info lifecycle iconv-lite@0.4.23~preuninstall: iconv-lite@0.4.23
+1543 info lifecycle iconv-lite@0.4.23~uninstall: iconv-lite@0.4.23
+1544 verbose unbuild rmStuff iconv-lite@0.4.23 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1545 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules
+1546 info lifecycle iconv-lite@0.4.23~postuninstall: iconv-lite@0.4.23
+1547 silly unbuild http-errors@1.6.3
+1548 info lifecycle http-errors@1.6.3~preuninstall: http-errors@1.6.3
+1549 info lifecycle http-errors@1.6.3~uninstall: http-errors@1.6.3
+1550 verbose unbuild rmStuff http-errors@1.6.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1551 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules
+1552 info lifecycle http-errors@1.6.3~postuninstall: http-errors@1.6.3
+1553 silly unbuild bytes@3.0.0
+1554 info lifecycle bytes@3.0.0~preuninstall: bytes@3.0.0
+1555 info lifecycle bytes@3.0.0~uninstall: bytes@3.0.0
+1556 verbose unbuild rmStuff bytes@3.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1557 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules
+1558 info lifecycle bytes@3.0.0~postuninstall: bytes@3.0.0
+1559 silly unbuild proxy-addr@2.0.6
+1560 info lifecycle proxy-addr@2.0.6~preuninstall: proxy-addr@2.0.6
+1561 info lifecycle proxy-addr@2.0.6~uninstall: proxy-addr@2.0.6
+1562 verbose unbuild rmStuff proxy-addr@2.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1563 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1564 info lifecycle proxy-addr@2.0.6~postuninstall: proxy-addr@2.0.6
+1565 silly unbuild ipaddr.js@1.9.1
+1566 info lifecycle ipaddr.js@1.9.1~preuninstall: ipaddr.js@1.9.1
+1567 info lifecycle ipaddr.js@1.9.1~uninstall: ipaddr.js@1.9.1
+1568 verbose unbuild rmStuff ipaddr.js@1.9.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1569 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_proxy-addr@2.0.6@proxy-addr\node_modules
+1570 info lifecycle ipaddr.js@1.9.1~postuninstall: ipaddr.js@1.9.1
+1571 silly unbuild forwarded@0.1.2
+1572 info lifecycle forwarded@0.1.2~preuninstall: forwarded@0.1.2
+1573 info lifecycle forwarded@0.1.2~uninstall: forwarded@0.1.2
+1574 verbose unbuild rmStuff forwarded@0.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1575 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_proxy-addr@2.0.6@proxy-addr\node_modules
+1576 info lifecycle forwarded@0.1.2~postuninstall: forwarded@0.1.2
+1577 silly unbuild on-finished@2.3.0
+1578 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+1579 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+1580 verbose unbuild rmStuff on-finished@2.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1581 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules
+1582 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+1583 silly unbuild finalhandler@1.1.1
+1584 info lifecycle finalhandler@1.1.1~preuninstall: finalhandler@1.1.1
+1585 info lifecycle finalhandler@1.1.1~uninstall: finalhandler@1.1.1
+1586 verbose unbuild rmStuff finalhandler@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1587 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1588 info lifecycle finalhandler@1.1.1~postuninstall: finalhandler@1.1.1
+1589 silly unbuild on-finished@2.3.0
+1590 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+1591 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+1592 verbose unbuild rmStuff on-finished@2.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1593 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1594 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+1595 silly unbuild on-finished@2.3.0
+1596 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+1597 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+1598 verbose unbuild rmStuff on-finished@2.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1599 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1600 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+1601 silly unbuild on-finished@2.3.0
+1602 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+1603 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+1604 verbose unbuild rmStuff on-finished@2.3.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1605 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1606 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+1607 silly unbuild ee-first@1.1.1
+1608 info lifecycle ee-first@1.1.1~preuninstall: ee-first@1.1.1
+1609 info lifecycle ee-first@1.1.1~uninstall: ee-first@1.1.1
+1610 verbose unbuild rmStuff ee-first@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1611 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_on-finished@2.3.0@on-finished\node_modules
+1612 info lifecycle ee-first@1.1.1~postuninstall: ee-first@1.1.1
+1613 silly unbuild on-headers@1.0.2
+1614 info lifecycle on-headers@1.0.2~preuninstall: on-headers@1.0.2
+1615 info lifecycle on-headers@1.0.2~uninstall: on-headers@1.0.2
+1616 verbose unbuild rmStuff on-headers@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1617 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules
+1618 info lifecycle on-headers@1.0.2~postuninstall: on-headers@1.0.2
+1619 silly unbuild depd@1.1.2
+1620 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+1621 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+1622 verbose unbuild rmStuff depd@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1623 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules
+1624 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+1625 silly unbuild debug@2.6.9
+1626 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1627 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1628 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1629 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules
+1630 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1631 silly unbuild basic-auth@2.0.1
+1632 info lifecycle basic-auth@2.0.1~preuninstall: basic-auth@2.0.1
+1633 info lifecycle basic-auth@2.0.1~uninstall: basic-auth@2.0.1
+1634 verbose unbuild rmStuff basic-auth@2.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1635 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules
+1636 info lifecycle basic-auth@2.0.1~postuninstall: basic-auth@2.0.1
+1637 silly unbuild accepts@1.3.7
+1638 info lifecycle accepts@1.3.7~preuninstall: accepts@1.3.7
+1639 info lifecycle accepts@1.3.7~uninstall: accepts@1.3.7
+1640 verbose unbuild rmStuff accepts@1.3.7 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1641 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1642 info lifecycle accepts@1.3.7~postuninstall: accepts@1.3.7
+1643 silly unbuild mime-types@2.1.26
+1644 info lifecycle mime-types@2.1.26~preuninstall: mime-types@2.1.26
+1645 info lifecycle mime-types@2.1.26~uninstall: mime-types@2.1.26
+1646 verbose unbuild rmStuff mime-types@2.1.26 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1647 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_accepts@1.3.7@accepts\node_modules
+1648 info lifecycle mime-types@2.1.26~postuninstall: mime-types@2.1.26
+1649 silly unbuild mime-db@1.43.0
+1650 info lifecycle mime-db@1.43.0~preuninstall: mime-db@1.43.0
+1651 info lifecycle mime-db@1.43.0~uninstall: mime-db@1.43.0
+1652 verbose unbuild rmStuff mime-db@1.43.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1653 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules
+1654 info lifecycle mime-db@1.43.0~postuninstall: mime-db@1.43.0
+1655 silly unbuild iconv-lite@0.4.23
+1656 info lifecycle iconv-lite@0.4.23~preuninstall: iconv-lite@0.4.23
+1657 info lifecycle iconv-lite@0.4.23~uninstall: iconv-lite@0.4.23
+1658 verbose unbuild rmStuff iconv-lite@0.4.23 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1659 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1660 info lifecycle iconv-lite@0.4.23~postuninstall: iconv-lite@0.4.23
+1661 silly unbuild safer-buffer@2.1.2
+1662 info lifecycle safer-buffer@2.1.2~preuninstall: safer-buffer@2.1.2
+1663 info lifecycle safer-buffer@2.1.2~uninstall: safer-buffer@2.1.2
+1664 verbose unbuild rmStuff safer-buffer@2.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1665 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_iconv-lite@0.4.23@iconv-lite\node_modules
+1666 info lifecycle safer-buffer@2.1.2~postuninstall: safer-buffer@2.1.2
+1667 silly unbuild statuses@1.5.0
+1668 info lifecycle statuses@1.5.0~preuninstall: statuses@1.5.0
+1669 info lifecycle statuses@1.5.0~uninstall: statuses@1.5.0
+1670 verbose unbuild rmStuff statuses@1.5.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1671 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules
+1672 info lifecycle statuses@1.5.0~postuninstall: statuses@1.5.0
+1673 silly unbuild setprototypeof@1.1.0
+1674 info lifecycle setprototypeof@1.1.0~preuninstall: setprototypeof@1.1.0
+1675 info lifecycle setprototypeof@1.1.0~uninstall: setprototypeof@1.1.0
+1676 verbose unbuild rmStuff setprototypeof@1.1.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1677 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules
+1678 info lifecycle setprototypeof@1.1.0~postuninstall: setprototypeof@1.1.0
+1679 silly unbuild inherits@2.0.3
+1680 info lifecycle inherits@2.0.3~preuninstall: inherits@2.0.3
+1681 info lifecycle inherits@2.0.3~uninstall: inherits@2.0.3
+1682 verbose unbuild rmStuff inherits@2.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1683 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules
+1684 info lifecycle inherits@2.0.3~postuninstall: inherits@2.0.3
+1685 silly unbuild depd@1.1.2
+1686 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+1687 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+1688 verbose unbuild rmStuff depd@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1689 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules
+1690 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+1691 silly unbuild unpipe@1.0.0
+1692 info lifecycle unpipe@1.0.0~preuninstall: unpipe@1.0.0
+1693 info lifecycle unpipe@1.0.0~uninstall: unpipe@1.0.0
+1694 verbose unbuild rmStuff unpipe@1.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1695 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1696 info lifecycle unpipe@1.0.0~postuninstall: unpipe@1.0.0
+1697 silly unbuild statuses@1.4.0
+1698 info lifecycle statuses@1.4.0~preuninstall: statuses@1.4.0
+1699 info lifecycle statuses@1.4.0~uninstall: statuses@1.4.0
+1700 verbose unbuild rmStuff statuses@1.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1701 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1702 info lifecycle statuses@1.4.0~postuninstall: statuses@1.4.0
+1703 silly unbuild parseurl@1.3.3
+1704 info lifecycle parseurl@1.3.3~preuninstall: parseurl@1.3.3
+1705 info lifecycle parseurl@1.3.3~uninstall: parseurl@1.3.3
+1706 verbose unbuild rmStuff parseurl@1.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1707 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1708 info lifecycle parseurl@1.3.3~postuninstall: parseurl@1.3.3
+1709 silly unbuild escape-html@1.0.3
+1710 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+1711 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+1712 verbose unbuild rmStuff escape-html@1.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1713 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1714 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+1715 silly unbuild encodeurl@1.0.2
+1716 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+1717 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+1718 verbose unbuild rmStuff encodeurl@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1719 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1720 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+1721 silly unbuild debug@2.6.9
+1722 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1723 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1724 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1725 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules
+1726 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1727 silly unbuild vary@1.1.2
+1728 info lifecycle vary@1.1.2~preuninstall: vary@1.1.2
+1729 info lifecycle vary@1.1.2~uninstall: vary@1.1.2
+1730 verbose unbuild rmStuff vary@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1731 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1732 info lifecycle vary@1.1.2~postuninstall: vary@1.1.2
+1733 silly unbuild utils-merge@1.0.1
+1734 info lifecycle utils-merge@1.0.1~preuninstall: utils-merge@1.0.1
+1735 info lifecycle utils-merge@1.0.1~uninstall: utils-merge@1.0.1
+1736 verbose unbuild rmStuff utils-merge@1.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1737 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1738 info lifecycle utils-merge@1.0.1~postuninstall: utils-merge@1.0.1
+1739 silly unbuild statuses@1.4.0
+1740 info lifecycle statuses@1.4.0~preuninstall: statuses@1.4.0
+1741 info lifecycle statuses@1.4.0~uninstall: statuses@1.4.0
+1742 verbose unbuild rmStuff statuses@1.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1743 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1744 info lifecycle statuses@1.4.0~postuninstall: statuses@1.4.0
+1745 silly unbuild setprototypeof@1.1.0
+1746 info lifecycle setprototypeof@1.1.0~preuninstall: setprototypeof@1.1.0
+1747 info lifecycle setprototypeof@1.1.0~uninstall: setprototypeof@1.1.0
+1748 verbose unbuild rmStuff setprototypeof@1.1.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1749 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1750 info lifecycle setprototypeof@1.1.0~postuninstall: setprototypeof@1.1.0
+1751 silly unbuild safe-buffer@5.1.2
+1752 info lifecycle safe-buffer@5.1.2~preuninstall: safe-buffer@5.1.2
+1753 info lifecycle safe-buffer@5.1.2~uninstall: safe-buffer@5.1.2
+1754 verbose unbuild rmStuff safe-buffer@5.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1755 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1756 info lifecycle safe-buffer@5.1.2~postuninstall: safe-buffer@5.1.2
+1757 silly unbuild range-parser@1.2.1
+1758 info lifecycle range-parser@1.2.1~preuninstall: range-parser@1.2.1
+1759 info lifecycle range-parser@1.2.1~uninstall: range-parser@1.2.1
+1760 verbose unbuild rmStuff range-parser@1.2.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1761 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1762 info lifecycle range-parser@1.2.1~postuninstall: range-parser@1.2.1
+1763 silly unbuild qs@6.5.2
+1764 info lifecycle qs@6.5.2~preuninstall: qs@6.5.2
+1765 info lifecycle qs@6.5.2~uninstall: qs@6.5.2
+1766 verbose unbuild rmStuff qs@6.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1767 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1768 info lifecycle qs@6.5.2~postuninstall: qs@6.5.2
+1769 silly unbuild path-to-regexp@0.1.7
+1770 info lifecycle path-to-regexp@0.1.7~preuninstall: path-to-regexp@0.1.7
+1771 info lifecycle path-to-regexp@0.1.7~uninstall: path-to-regexp@0.1.7
+1772 verbose unbuild rmStuff path-to-regexp@0.1.7 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1773 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1774 info lifecycle path-to-regexp@0.1.7~postuninstall: path-to-regexp@0.1.7
+1775 silly unbuild parseurl@1.3.3
+1776 info lifecycle parseurl@1.3.3~preuninstall: parseurl@1.3.3
+1777 info lifecycle parseurl@1.3.3~uninstall: parseurl@1.3.3
+1778 verbose unbuild rmStuff parseurl@1.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1779 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1780 info lifecycle parseurl@1.3.3~postuninstall: parseurl@1.3.3
+1781 silly unbuild methods@1.1.2
+1782 info lifecycle methods@1.1.2~preuninstall: methods@1.1.2
+1783 info lifecycle methods@1.1.2~uninstall: methods@1.1.2
+1784 verbose unbuild rmStuff methods@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1785 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1786 info lifecycle methods@1.1.2~postuninstall: methods@1.1.2
+1787 silly unbuild merge-descriptors@1.0.1
+1788 info lifecycle merge-descriptors@1.0.1~preuninstall: merge-descriptors@1.0.1
+1789 info lifecycle merge-descriptors@1.0.1~uninstall: merge-descriptors@1.0.1
+1790 verbose unbuild rmStuff merge-descriptors@1.0.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1791 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1792 info lifecycle merge-descriptors@1.0.1~postuninstall: merge-descriptors@1.0.1
+1793 silly unbuild fresh@0.5.2
+1794 info lifecycle fresh@0.5.2~preuninstall: fresh@0.5.2
+1795 info lifecycle fresh@0.5.2~uninstall: fresh@0.5.2
+1796 verbose unbuild rmStuff fresh@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1797 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1798 info lifecycle fresh@0.5.2~postuninstall: fresh@0.5.2
+1799 silly unbuild etag@1.8.1
+1800 info lifecycle etag@1.8.1~preuninstall: etag@1.8.1
+1801 info lifecycle etag@1.8.1~uninstall: etag@1.8.1
+1802 verbose unbuild rmStuff etag@1.8.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1803 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1804 info lifecycle etag@1.8.1~postuninstall: etag@1.8.1
+1805 silly unbuild escape-html@1.0.3
+1806 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+1807 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+1808 verbose unbuild rmStuff escape-html@1.0.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1809 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1810 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+1811 silly unbuild encodeurl@1.0.2
+1812 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+1813 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+1814 verbose unbuild rmStuff encodeurl@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1815 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1816 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+1817 silly unbuild depd@1.1.2
+1818 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+1819 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+1820 verbose unbuild rmStuff depd@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1821 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1822 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+1823 silly unbuild debug@2.6.9
+1824 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1825 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1826 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1827 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1828 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1829 silly unbuild cookie-signature@1.0.6
+1830 info lifecycle cookie-signature@1.0.6~preuninstall: cookie-signature@1.0.6
+1831 info lifecycle cookie-signature@1.0.6~uninstall: cookie-signature@1.0.6
+1832 verbose unbuild rmStuff cookie-signature@1.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1833 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1834 info lifecycle cookie-signature@1.0.6~postuninstall: cookie-signature@1.0.6
+1835 silly unbuild cookie@0.3.1
+1836 info lifecycle cookie@0.3.1~preuninstall: cookie@0.3.1
+1837 info lifecycle cookie@0.3.1~uninstall: cookie@0.3.1
+1838 verbose unbuild rmStuff cookie@0.3.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1839 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1840 info lifecycle cookie@0.3.1~postuninstall: cookie@0.3.1
+1841 silly unbuild content-type@1.0.4
+1842 info lifecycle content-type@1.0.4~preuninstall: content-type@1.0.4
+1843 info lifecycle content-type@1.0.4~uninstall: content-type@1.0.4
+1844 verbose unbuild rmStuff content-type@1.0.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1845 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1846 info lifecycle content-type@1.0.4~postuninstall: content-type@1.0.4
+1847 silly unbuild content-disposition@0.5.2
+1848 info lifecycle content-disposition@0.5.2~preuninstall: content-disposition@0.5.2
+1849 info lifecycle content-disposition@0.5.2~uninstall: content-disposition@0.5.2
+1850 verbose unbuild rmStuff content-disposition@0.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1851 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1852 info lifecycle content-disposition@0.5.2~postuninstall: content-disposition@0.5.2
+1853 silly unbuild array-flatten@1.1.1
+1854 info lifecycle array-flatten@1.1.1~preuninstall: array-flatten@1.1.1
+1855 info lifecycle array-flatten@1.1.1~uninstall: array-flatten@1.1.1
+1856 verbose unbuild rmStuff array-flatten@1.1.1 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1857 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules
+1858 info lifecycle array-flatten@1.1.1~postuninstall: array-flatten@1.1.1
+1859 silly unbuild safe-buffer@5.2.0
+1860 info lifecycle safe-buffer@5.2.0~preuninstall: safe-buffer@5.2.0
+1861 info lifecycle safe-buffer@5.2.0~uninstall: safe-buffer@5.2.0
+1862 verbose unbuild rmStuff safe-buffer@5.2.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1863 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1864 info lifecycle safe-buffer@5.2.0~postuninstall: safe-buffer@5.2.0
+1865 silly unbuild parseurl@1.3.3
+1866 info lifecycle parseurl@1.3.3~preuninstall: parseurl@1.3.3
+1867 info lifecycle parseurl@1.3.3~uninstall: parseurl@1.3.3
+1868 verbose unbuild rmStuff parseurl@1.3.3 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1869 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1870 info lifecycle parseurl@1.3.3~postuninstall: parseurl@1.3.3
+1871 silly unbuild on-headers@1.0.2
+1872 info lifecycle on-headers@1.0.2~preuninstall: on-headers@1.0.2
+1873 info lifecycle on-headers@1.0.2~uninstall: on-headers@1.0.2
+1874 verbose unbuild rmStuff on-headers@1.0.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1875 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1876 info lifecycle on-headers@1.0.2~postuninstall: on-headers@1.0.2
+1877 silly unbuild depd@2.0.0
+1878 info lifecycle depd@2.0.0~preuninstall: depd@2.0.0
+1879 info lifecycle depd@2.0.0~uninstall: depd@2.0.0
+1880 verbose unbuild rmStuff depd@2.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1881 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1882 info lifecycle depd@2.0.0~postuninstall: depd@2.0.0
+1883 silly unbuild debug@2.6.9
+1884 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1885 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1886 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1887 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1888 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1889 silly unbuild cookie-signature@1.0.6
+1890 info lifecycle cookie-signature@1.0.6~preuninstall: cookie-signature@1.0.6
+1891 info lifecycle cookie-signature@1.0.6~uninstall: cookie-signature@1.0.6
+1892 verbose unbuild rmStuff cookie-signature@1.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1893 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1894 info lifecycle cookie-signature@1.0.6~postuninstall: cookie-signature@1.0.6
+1895 silly unbuild cookie@0.4.0
+1896 info lifecycle cookie@0.4.0~preuninstall: cookie@0.4.0
+1897 info lifecycle cookie@0.4.0~uninstall: cookie@0.4.0
+1898 verbose unbuild rmStuff cookie@0.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1899 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules
+1900 info lifecycle cookie@0.4.0~postuninstall: cookie@0.4.0
+1901 silly unbuild debug@2.6.9
+1902 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+1903 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+1904 verbose unbuild rmStuff debug@2.6.9 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1905 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1906 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+1907 silly unbuild ms@2.0.0
+1908 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+1909 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+1910 verbose unbuild rmStuff ms@2.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1911 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_debug@2.6.9@debug\node_modules
+1912 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+1913 silly unbuild cookie-signature@1.0.6
+1914 info lifecycle cookie-signature@1.0.6~preuninstall: cookie-signature@1.0.6
+1915 info lifecycle cookie-signature@1.0.6~uninstall: cookie-signature@1.0.6
+1916 verbose unbuild rmStuff cookie-signature@1.0.6 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1917 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie-parser@1.4.5@cookie-parser\node_modules
+1918 info lifecycle cookie-signature@1.0.6~postuninstall: cookie-signature@1.0.6
+1919 silly unbuild cookie@0.4.0
+1920 info lifecycle cookie@0.4.0~preuninstall: cookie@0.4.0
+1921 info lifecycle cookie@0.4.0~uninstall: cookie@0.4.0
+1922 verbose unbuild rmStuff cookie@0.4.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1923 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie-parser@1.4.5@cookie-parser\node_modules
+1924 info lifecycle cookie@0.4.0~postuninstall: cookie@0.4.0
+1925 silly unbuild qs@6.5.2
+1926 info lifecycle qs@6.5.2~preuninstall: qs@6.5.2
+1927 info lifecycle qs@6.5.2~uninstall: qs@6.5.2
+1928 verbose unbuild rmStuff qs@6.5.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1929 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1930 info lifecycle qs@6.5.2~postuninstall: qs@6.5.2
+1931 silly unbuild depd@1.1.2
+1932 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+1933 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+1934 verbose unbuild rmStuff depd@1.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1935 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1936 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+1937 silly unbuild content-type@1.0.4
+1938 info lifecycle content-type@1.0.4~preuninstall: content-type@1.0.4
+1939 info lifecycle content-type@1.0.4~uninstall: content-type@1.0.4
+1940 verbose unbuild rmStuff content-type@1.0.4 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1941 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1942 info lifecycle content-type@1.0.4~postuninstall: content-type@1.0.4
+1943 silly unbuild bytes@3.0.0
+1944 info lifecycle bytes@3.0.0~preuninstall: bytes@3.0.0
+1945 info lifecycle bytes@3.0.0~uninstall: bytes@3.0.0
+1946 verbose unbuild rmStuff bytes@3.0.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1947 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules
+1948 info lifecycle bytes@3.0.0~postuninstall: bytes@3.0.0
+1949 silly unbuild safe-buffer@5.1.2
+1950 info lifecycle safe-buffer@5.1.2~preuninstall: safe-buffer@5.1.2
+1951 info lifecycle safe-buffer@5.1.2~uninstall: safe-buffer@5.1.2
+1952 verbose unbuild rmStuff safe-buffer@5.1.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1953 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_basic-auth@2.0.1@basic-auth\node_modules
+1954 info lifecycle safe-buffer@5.1.2~postuninstall: safe-buffer@5.1.2
+1955 silly unbuild negotiator@0.6.2
+1956 info lifecycle negotiator@0.6.2~preuninstall: negotiator@0.6.2
+1957 info lifecycle negotiator@0.6.2~uninstall: negotiator@0.6.2
+1958 verbose unbuild rmStuff negotiator@0.6.2 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+1959 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_accepts@1.3.7@accepts\node_modules
+1960 info lifecycle negotiator@0.6.2~postuninstall: negotiator@0.6.2
+1961 timing action:unbuild Completed in 123ms
+1962 silly doSerial remove 508
+1963 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_accepts@1.3.7@accepts\node_modules\negotiator
+1964 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_basic-auth@2.0.1@basic-auth\node_modules\safe-buffer
+1965 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\bytes
+1966 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\content-type
+1967 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\depd
+1968 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\qs
+1969 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie-parser@1.4.5@cookie-parser\node_modules\cookie
+1970 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie-parser@1.4.5@cookie-parser\node_modules\cookie-signature
+1971 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_debug@2.6.9@debug\node_modules\ms
+1972 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\debug
+1973 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\cookie
+1974 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\cookie-signature
+1975 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\debug
+1976 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\depd
+1977 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\on-headers
+1978 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\parseurl
+1979 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\safe-buffer
+1980 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\array-flatten
+1981 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\content-disposition
+1982 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\content-type
+1983 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\cookie
+1984 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\cookie-signature
+1985 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\debug
+1986 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\depd
+1987 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\encodeurl
+1988 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\escape-html
+1989 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\etag
+1990 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\fresh
+1991 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\merge-descriptors
+1992 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\methods
+1993 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\parseurl
+1994 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\path-to-regexp
+1995 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\qs
+1996 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\range-parser
+1997 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\safe-buffer
+1998 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\setprototypeof
+1999 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\statuses
+2000 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\utils-merge
+2001 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\vary
+2002 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\debug
+2003 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\encodeurl
+2004 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\escape-html
+2005 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\parseurl
+2006 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\statuses
+2007 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\unpipe
+2008 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules\depd
+2009 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules\inherits
+2010 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules\setprototypeof
+2011 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors\node_modules\statuses
+2012 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_iconv-lite@0.4.23@iconv-lite\node_modules\safer-buffer
+2013 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\iconv-lite
+2014 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db
+2015 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_accepts@1.3.7@accepts\node_modules\mime-types
+2016 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\accepts
+2017 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules\basic-auth
+2018 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules\debug
+2019 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules\depd
+2020 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules\on-headers
+2021 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_on-finished@2.3.0@on-finished\node_modules\ee-first
+2022 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\on-finished
+2023 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\on-finished
+2024 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler\node_modules\on-finished
+2025 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\finalhandler
+2026 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan\node_modules\on-finished
+2027 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_proxy-addr@2.0.6@proxy-addr\node_modules\forwarded
+2028 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_proxy-addr@2.0.6@proxy-addr\node_modules\ipaddr.js
+2029 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\proxy-addr
+2030 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules\bytes
+2031 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules\http-errors
+2032 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules\iconv-lite
+2033 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body\node_modules\unpipe
+2034 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\raw-body
+2035 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\debug
+2036 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\depd
+2037 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\destroy
+2038 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\encodeurl
+2039 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\escape-html
+2040 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\etag
+2041 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\fresh
+2042 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\http-errors
+2043 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\mime
+2044 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\ms
+2045 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\on-finished
+2046 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\range-parser
+2047 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send\node_modules\statuses
+2048 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\send
+2049 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules\encodeurl
+2050 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules\escape-html
+2051 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules\parseurl
+2052 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static\node_modules\send
+2053 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\serve-static
+2054 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_type-is@1.6.18@type-is\node_modules\media-typer
+2055 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_type-is@1.6.18@type-is\node_modules\mime-types
+2056 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser\node_modules\type-is
+2057 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\body-parser
+2058 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express\node_modules\type-is
+2059 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_uid-safe@2.1.5@uid-safe\node_modules\random-bytes
+2060 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session\node_modules\uid-safe
+2061 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_accepts@1.3.7@accepts
+2062 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_array-flatten@1.1.1@array-flatten
+2063 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_basic-auth@2.0.1@basic-auth
+2064 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_body-parser@1.18.3@body-parser
+2065 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_bytes@3.0.0@bytes
+2066 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_content-disposition@0.5.2@content-disposition
+2067 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_content-type@1.0.4@content-type
+2068 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie-parser@1.4.5@cookie-parser
+2069 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie-signature@1.0.6@cookie-signature
+2070 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie@0.3.1@cookie
+2071 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_cookie@0.4.0@cookie
+2072 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_debug@2.6.9@debug
+2073 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_depd@1.1.2@depd
+2074 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_depd@2.0.0@depd
+2075 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_destroy@1.0.4@destroy
+2076 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_ee-first@1.1.1@ee-first
+2077 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_ejs@2.6.2@ejs
+2078 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_encodeurl@1.0.2@encodeurl
+2079 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_escape-html@1.0.3@escape-html
+2080 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_etag@1.8.1@etag
+2081 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express-session@1.17.0@express-session
+2082 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_express@4.16.4@express
+2083 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_finalhandler@1.1.1@finalhandler
+2084 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_forwarded@0.1.2@forwarded
+2085 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_fresh@0.5.2@fresh
+2086 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_http-errors@1.6.3@http-errors
+2087 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_iconv-lite@0.4.23@iconv-lite
+2088 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_inherits@2.0.3@inherits
+2089 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_ipaddr.js@1.9.1@ipaddr.js
+2090 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_media-typer@0.3.0@media-typer
+2091 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_merge-descriptors@1.0.1@merge-descriptors
+2092 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_methods@1.1.2@methods
+2093 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-db@1.43.0@mime-db
+2094 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types
+2095 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime@1.4.1@mime
+2096 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_morgan@1.9.1@morgan
+2097 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_ms@2.0.0@ms
+2098 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_negotiator@0.6.2@negotiator
+2099 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_nodemailer@6.4.6@nodemailer
+2100 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_on-finished@2.3.0@on-finished
+2101 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_on-headers@1.0.2@on-headers
+2102 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_parseurl@1.3.3@parseurl
+2103 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_path-to-regexp@0.1.7@path-to-regexp
+2104 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_proxy-addr@2.0.6@proxy-addr
+2105 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_qs@6.5.2@qs
+2106 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_random-bytes@1.0.0@random-bytes
+2107 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_range-parser@1.2.1@range-parser
+2108 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_raw-body@2.3.3@raw-body
+2109 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_safe-buffer@5.1.2@safe-buffer
+2110 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_safe-buffer@5.2.0@safe-buffer
+2111 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_safer-buffer@2.1.2@safer-buffer
+2112 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_send@0.16.2@send
+2113 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_serve-static@1.13.2@serve-static
+2114 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_setprototypeof@1.1.0@setprototypeof
+2115 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_statuses@1.4.0@statuses
+2116 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_statuses@1.5.0@statuses
+2117 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_type-is@1.6.18@type-is
+2118 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_uid-safe@2.1.5@uid-safe
+2119 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_unpipe@1.0.0@unpipe
+2120 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_utils-merge@1.0.1@utils-merge
+2121 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_vary@1.1.2@vary
+2122 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\accepts
+2123 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\array-flatten
+2124 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\basic-auth
+2125 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\body-parser
+2126 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\content-disposition
+2127 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\destroy
+2128 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\encodeurl
+2129 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\escape-html
+2130 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\etag
+2131 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\express-session
+2132 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\finalhandler
+2133 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\forwarded
+2134 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\fresh
+2135 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\inherits
+2136 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\ipaddr.js
+2137 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\merge-descriptors
+2138 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\methods
+2139 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\mime
+2140 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\ms
+2141 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\path-to-regexp
+2142 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\proxy-addr
+2143 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\range-parser
+2144 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\send
+2145 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\serve-static
+2146 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\setprototypeof
+2147 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\statuses
+2148 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\utils-merge
+2149 silly remove C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\vary
+2150 timing action:remove Completed in 520ms
+2151 silly doSerial move 508
+2152 silly move C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db
+2153 info lifecycle mime-db@1.43.0~preuninstall: mime-db@1.43.0
+2154 info lifecycle mime-db@1.43.0~uninstall: mime-db@1.43.0
+2155 verbose unbuild rmStuff mime-db@1.43.0 from C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules
+2156 verbose unbuild rmStuff in C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules
+2157 info lifecycle mime-db@1.43.0~postuninstall: mime-db@1.43.0
+2158 silly move move existing destination node_modules away C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db\node_modules
+2159 silly move remove existing destination C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db
+2160 silly move make sure destination parent exists C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules
+2161 silly move move source node_modules away C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db\node_modules
+2162 silly move move module dir to final dest C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db
+2163 timing action:move Completed in 7ms
+2164 verbose unlock done using C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\XXX\nodejs\node_cache\_locks\staging-17512a5eda782359.lock for C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\.staging
+2165 timing stage:rollbackFailedOptional Completed in 0ms
+2166 timing stage:runTopLevelLifecycles Completed in 8514ms
+2167 silly saveTree miaomiaoserver@0.0.0
+2167 silly saveTree +-- cookie-parser@1.4.5
+2167 silly saveTree | +-- cookie-signature@1.0.6
+2167 silly saveTree | `-- cookie@0.4.0
+2167 silly saveTree +-- debug@2.6.9
+2167 silly saveTree | `-- ms@2.0.0
+2167 silly saveTree +-- ejs@2.6.2
+2167 silly saveTree +-- express-session@1.17.0
+2167 silly saveTree | +-- cookie-signature@1.0.6
+2167 silly saveTree | +-- cookie@0.4.0
+2167 silly saveTree | +-- depd@2.0.0
+2167 silly saveTree | +-- on-headers@1.0.2
+2167 silly saveTree | +-- parseurl@1.3.3
+2167 silly saveTree | +-- safe-buffer@5.2.0
+2167 silly saveTree | `-- uid-safe@2.1.5
+2167 silly saveTree |   `-- random-bytes@1.0.0
+2167 silly saveTree +-- express@4.16.4
+2167 silly saveTree | +-- accepts@1.3.7
+2167 silly saveTree | | +-- mime-types@2.1.26
+2167 silly saveTree | | | `-- mime-db@1.43.0
+2167 silly saveTree | | `-- negotiator@0.6.2
+2167 silly saveTree | +-- array-flatten@1.1.1
+2167 silly saveTree | +-- body-parser@1.18.3
+2167 silly saveTree | | +-- bytes@3.0.0
+2167 silly saveTree | | +-- content-type@1.0.4
+2167 silly saveTree | | +-- debug@2.6.9
+2167 silly saveTree | | +-- depd@1.1.2
+2167 silly saveTree | | +-- http-errors@1.6.3
+2167 silly saveTree | | | +-- depd@1.1.2
+2167 silly saveTree | | | +-- inherits@2.0.3
+2167 silly saveTree | | | +-- setprototypeof@1.1.0
+2167 silly saveTree | | | `-- statuses@1.5.0
+2167 silly saveTree | | +-- iconv-lite@0.4.23
+2167 silly saveTree | | | `-- safer-buffer@2.1.2
+2167 silly saveTree | | +-- on-finished@2.3.0
+2167 silly saveTree | | | `-- ee-first@1.1.1
+2167 silly saveTree | | +-- qs@6.5.2
+2167 silly saveTree | | +-- raw-body@2.3.3
+2167 silly saveTree | | | +-- bytes@3.0.0
+2167 silly saveTree | | | +-- http-errors@1.6.3
+2167 silly saveTree | | | +-- iconv-lite@0.4.23
+2167 silly saveTree | | | `-- unpipe@1.0.0
+2167 silly saveTree | | `-- type-is@1.6.18
+2167 silly saveTree | |   +-- media-typer@0.3.0
+2167 silly saveTree | |   `-- mime-types@2.1.26
+2167 silly saveTree | +-- content-disposition@0.5.2
+2167 silly saveTree | +-- content-type@1.0.4
+2167 silly saveTree | +-- cookie-signature@1.0.6
+2167 silly saveTree | +-- cookie@0.3.1
+2167 silly saveTree | +-- debug@2.6.9
+2167 silly saveTree | +-- depd@1.1.2
+2167 silly saveTree | +-- encodeurl@1.0.2
+2167 silly saveTree | +-- escape-html@1.0.3
+2167 silly saveTree | +-- etag@1.8.1
+2167 silly saveTree | +-- finalhandler@1.1.1
+2167 silly saveTree | | +-- debug@2.6.9
+2167 silly saveTree | | +-- encodeurl@1.0.2
+2167 silly saveTree | | +-- escape-html@1.0.3
+2167 silly saveTree | | +-- on-finished@2.3.0
+2167 silly saveTree | | +-- parseurl@1.3.3
+2167 silly saveTree | | +-- statuses@1.4.0
+2167 silly saveTree | | `-- unpipe@1.0.0
+2167 silly saveTree | +-- fresh@0.5.2
+2167 silly saveTree | +-- merge-descriptors@1.0.1
+2167 silly saveTree | +-- methods@1.1.2
+2167 silly saveTree | +-- on-finished@2.3.0
+2167 silly saveTree | +-- parseurl@1.3.3
+2167 silly saveTree | +-- path-to-regexp@0.1.7
+2167 silly saveTree | +-- proxy-addr@2.0.6
+2167 silly saveTree | | +-- forwarded@0.1.2
+2167 silly saveTree | | `-- ipaddr.js@1.9.1
+2167 silly saveTree | +-- qs@6.5.2
+2167 silly saveTree | +-- range-parser@1.2.1
+2167 silly saveTree | +-- safe-buffer@5.1.2
+2167 silly saveTree | +-- send@0.16.2
+2167 silly saveTree | | +-- debug@2.6.9
+2167 silly saveTree | | +-- depd@1.1.2
+2167 silly saveTree | | +-- destroy@1.0.4
+2167 silly saveTree | | +-- encodeurl@1.0.2
+2167 silly saveTree | | +-- escape-html@1.0.3
+2167 silly saveTree | | +-- etag@1.8.1
+2167 silly saveTree | | +-- fresh@0.5.2
+2167 silly saveTree | | +-- http-errors@1.6.3
+2167 silly saveTree | | +-- mime@1.4.1
+2167 silly saveTree | | +-- ms@2.0.0
+2167 silly saveTree | | +-- on-finished@2.3.0
+2167 silly saveTree | | +-- range-parser@1.2.1
+2167 silly saveTree | | `-- statuses@1.4.0
+2167 silly saveTree | +-- serve-static@1.13.2
+2167 silly saveTree | | +-- encodeurl@1.0.2
+2167 silly saveTree | | +-- escape-html@1.0.3
+2167 silly saveTree | | +-- parseurl@1.3.3
+2167 silly saveTree | | `-- send@0.16.2
+2167 silly saveTree | +-- setprototypeof@1.1.0
+2167 silly saveTree | +-- statuses@1.4.0
+2167 silly saveTree | +-- type-is@1.6.18
+2167 silly saveTree | +-- utils-merge@1.0.1
+2167 silly saveTree | `-- vary@1.1.2
+2167 silly saveTree +-- http-errors@1.6.3
+2167 silly saveTree +-- morgan@1.9.1
+2167 silly saveTree | +-- basic-auth@2.0.1
+2167 silly saveTree | | `-- safe-buffer@5.1.2
+2167 silly saveTree | +-- debug@2.6.9
+2167 silly saveTree | +-- depd@1.1.2
+2167 silly saveTree | +-- on-finished@2.3.0
+2167 silly saveTree | `-- on-headers@1.0.2
+2167 silly saveTree `-- nodemailer@6.4.6
+2168 verbose stack Error: ENOENT: no such file or directory, rename 'C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db' -> 'C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db'
+2169 verbose cwd C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+2170 verbose Windows_NT 10.0.18362
+2171 verbose argv "D:\\Develop\\node.exe" "C:\\Users\\86183\\XXX\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-session"
+2172 verbose node v12.12.0
+2173 verbose npm  v6.14.2
+2174 error code ENOENT
+2175 error syscall rename
+2176 error path C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db
+2177 error dest C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db
+2178 error errno -4058
+2179 error enoent ENOENT: no such file or directory, rename 'C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db' -> 'C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver\node_modules\_mime-types@2.1.26@mime-types\node_modules\mime-db'
+2180 error enoent This is related to npm not being able to find a file.
+2181 verbose exit [ -4058, true ]

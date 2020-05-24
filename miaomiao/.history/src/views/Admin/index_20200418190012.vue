@@ -1,0 +1,33 @@
+<template>
+    <div>
+        管理页面
+    </div>
+</template>
+
+<script>
+import axios from 'axios';
+export default {
+  name:'',
+  data(){
+   return {
+
+   }
+  },
+  methods:{
+    beforeRouteEnter (to, from, next) {
+    axios.get('/api2/admin').then((res)=>{
+      var status = res.data.status;
+      if(status === 0){
+        next();
+      }else{
+        next('/mine/login');
+      }
+    });
+  }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

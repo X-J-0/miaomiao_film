@@ -1,0 +1,211 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\Develop\\node.exe',
+1 verbose cli   'C:\\Users\\86183\\XXX\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express'
+1 verbose cli ]
+2 info using npm@6.14.2
+3 info using node@v12.12.0
+4 verbose npm-session 8eeb4131bda54ea2
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/express 1720ms
+8 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.17.1.tgz 332ms
+9 silly pacote tag manifest for express@latest fetched in 2124ms
+10 timing stage:loadCurrentTree Completed in 2358ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 21ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule express@4.17.1 checking installable status
+18 silly removeObsoleteDep removing express@4.17.1 from the tree as its been replaced by a newer version or is no longer required
+19 silly removeObsoleteDep removing accepts@1.3.7 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing negotiator@0.6.2 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing array-flatten@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing body-parser@1.19.0 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing bytes@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing iconv-lite@0.4.24 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing safer-buffer@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing raw-body@2.4.0 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing content-disposition@0.5.3 from the tree as its been replaced by a newer version or is no longer required
+28 silly removeObsoleteDep removing content-type@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing cookie@0.4.0 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing cookie-signature@1.0.6 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing finalhandler@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+32 silly removeObsoleteDep removing unpipe@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+33 silly removeObsoleteDep removing merge-descriptors@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+34 silly removeObsoleteDep removing methods@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+35 silly removeObsoleteDep removing path-to-regexp@0.1.7 from the tree as its been replaced by a newer version or is no longer required
+36 silly removeObsoleteDep removing proxy-addr@2.0.6 from the tree as its been replaced by a newer version or is no longer required
+37 silly removeObsoleteDep removing forwarded@0.1.2 from the tree as its been replaced by a newer version or is no longer required
+38 silly removeObsoleteDep removing ipaddr.js@1.9.1 from the tree as its been replaced by a newer version or is no longer required
+39 silly removeObsoleteDep removing qs@6.7.0 from the tree as its been replaced by a newer version or is no longer required
+40 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+41 silly removeObsoleteDep removing serve-static@1.14.1 from the tree as its been replaced by a newer version or is no longer required
+42 silly removeObsoleteDep removing encodeurl@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+43 silly removeObsoleteDep removing escape-html@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+44 silly removeObsoleteDep removing parseurl@1.3.3 from the tree as its been replaced by a newer version or is no longer required
+45 silly removeObsoleteDep removing send@0.17.1 from the tree as its been replaced by a newer version or is no longer required
+46 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+47 silly removeObsoleteDep removing ms@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+48 silly removeObsoleteDep removing depd@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+49 silly removeObsoleteDep removing destroy@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+50 silly removeObsoleteDep removing etag@1.8.1 from the tree as its been replaced by a newer version or is no longer required
+51 silly removeObsoleteDep removing fresh@0.5.2 from the tree as its been replaced by a newer version or is no longer required
+52 silly removeObsoleteDep removing http-errors@1.7.2 from the tree as its been replaced by a newer version or is no longer required
+53 silly removeObsoleteDep removing inherits@2.0.3 from the tree as its been replaced by a newer version or is no longer required
+54 silly removeObsoleteDep removing toidentifier@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+55 silly removeObsoleteDep removing mime@1.6.0 from the tree as its been replaced by a newer version or is no longer required
+56 silly removeObsoleteDep removing ms@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+57 silly removeObsoleteDep removing on-finished@2.3.0 from the tree as its been replaced by a newer version or is no longer required
+58 silly removeObsoleteDep removing ee-first@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+59 silly removeObsoleteDep removing range-parser@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+60 silly removeObsoleteDep removing setprototypeof@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+61 silly removeObsoleteDep removing statuses@1.5.0 from the tree as its been replaced by a newer version or is no longer required
+62 silly removeObsoleteDep removing type-is@1.6.18 from the tree as its been replaced by a newer version or is no longer required
+63 silly removeObsoleteDep removing media-typer@0.3.0 from the tree as its been replaced by a newer version or is no longer required
+64 silly removeObsoleteDep removing mime-types@2.1.26 from the tree as its been replaced by a newer version or is no longer required
+65 silly removeObsoleteDep removing mime-db@1.43.0 from the tree as its been replaced by a newer version or is no longer required
+66 silly removeObsoleteDep removing utils-merge@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+67 silly removeObsoleteDep removing vary@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+68 http fetch GET 200 https://registry.npmjs.org/accepts 348ms
+69 http fetch GET 200 https://registry.npmjs.org/cookie 394ms
+70 http fetch GET 304 https://registry.npmjs.org/debug 437ms (from cache)
+71 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 9ms (from cache)
+72 silly pacote version manifest for debug@2.6.9 fetched in 457ms
+73 silly resolveWithNewModule debug@2.6.9 checking installable status
+74 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.7.tgz 141ms
+75 silly pacote range manifest for accepts@~1.3.7 fetched in 502ms
+76 silly resolveWithNewModule accepts@1.3.7 checking installable status
+77 http fetch GET 200 https://registry.npmjs.org/array-flatten 576ms
+78 http fetch GET 200 https://registry.npmjs.org/escape-html 136ms
+79 http fetch GET 200 https://registry.npmjs.org/etag 148ms
+80 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.4.0.tgz 299ms
+81 http fetch GET 200 https://registry.npmjs.org/body-parser 703ms
+82 silly pacote version manifest for cookie@0.4.0 fetched in 717ms
+83 silly resolveWithNewModule cookie@0.4.0 checking installable status
+84 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 147ms
+85 silly pacote range manifest for escape-html@~1.0.3 fetched in 293ms
+86 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+87 http fetch GET 200 https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 210ms
+88 silly pacote version manifest for array-flatten@1.1.1 fetched in 795ms
+89 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+90 http fetch GET 200 https://registry.npmjs.org/fresh 137ms
+91 http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 251ms
+92 silly pacote range manifest for etag@~1.8.1 fetched in 411ms
+93 silly resolveWithNewModule etag@1.8.1 checking installable status
+94 http fetch GET 200 https://registry.npmjs.org/cookie-signature 991ms
+95 http fetch GET 200 https://registry.npmjs.org/content-type 996ms
+96 http fetch GET 200 https://registry.npmjs.org/methods 127ms
+97 http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz 130ms
+98 silly pacote range manifest for content-type@~1.0.4 fetched in 1134ms
+99 silly resolveWithNewModule content-type@1.0.4 checking installable status
+100 http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 264ms
+101 http fetch GET 200 https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 117ms
+102 silly pacote version manifest for fresh@0.5.2 fetched in 411ms
+103 silly resolveWithNewModule fresh@0.5.2 checking installable status
+104 silly pacote range manifest for methods@~1.1.2 fetched in 258ms
+105 silly resolveWithNewModule methods@1.1.2 checking installable status
+106 http fetch GET 200 https://registry.npmjs.org/content-disposition 1188ms
+107 http fetch GET 200 https://registry.npmjs.org/on-finished 147ms
+108 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.19.0.tgz 591ms
+109 silly pacote version manifest for body-parser@1.19.0 fetched in 1308ms
+110 silly resolveWithNewModule body-parser@1.19.0 checking installable status
+111 http fetch GET 304 https://registry.npmjs.org/depd 1322ms (from cache)
+112 silly pacote range manifest for depd@~1.1.2 fetched in 1329ms
+113 silly resolveWithNewModule depd@1.1.2 checking installable status
+114 http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.3.tgz 154ms
+115 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz 354ms
+116 silly pacote version manifest for content-disposition@0.5.3 fetched in 1351ms
+117 silly resolveWithNewModule content-disposition@0.5.3 checking installable status
+118 silly pacote version manifest for cookie-signature@1.0.6 fetched in 1357ms
+119 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+120 http fetch GET 200 https://registry.npmjs.org/parseurl 248ms
+121 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 304ms
+122 http fetch GET 200 https://registry.npmjs.org/range-parser 155ms
+123 http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 114ms
+124 silly pacote range manifest for parseurl@~1.3.3 fetched in 380ms
+125 silly resolveWithNewModule parseurl@1.3.3 checking installable status
+126 http fetch GET 304 https://registry.npmjs.org/safe-buffer 190ms (from cache)
+127 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 267ms
+128 silly pacote range manifest for on-finished@~2.3.0 fetched in 424ms
+129 silly resolveWithNewModule on-finished@2.3.0 checking installable status
+130 http fetch GET 200 https://registry.npmjs.org/qs 241ms
+131 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz 132ms
+132 http fetch GET 200 https://registry.npmjs.org/proxy-addr 302ms
+133 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 821ms
+134 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 452ms
+135 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+136 http fetch GET 200 https://registry.npmjs.org/encodeurl 1628ms
+137 http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 147ms
+138 silly pacote range manifest for range-parser@~1.2.1 fetched in 310ms
+139 silly resolveWithNewModule range-parser@1.2.1 checking installable status
+140 http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz 132ms
+141 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 961ms
+142 silly resolveWithNewModule merge-descriptors@1.0.1 checking installable status
+143 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 164ms
+144 silly pacote range manifest for encodeurl@~1.0.2 fetched in 1813ms
+145 silly resolveWithNewModule encodeurl@1.0.2 checking installable status
+146 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.7.0.tgz 249ms
+147 http fetch GET 304 https://registry.npmjs.org/statuses 163ms (from cache)
+148 silly pacote range manifest for statuses@~1.5.0 fetched in 165ms
+149 silly resolveWithNewModule statuses@1.5.0 checking installable status
+150 silly pacote version manifest for qs@6.7.0 fetched in 503ms
+151 silly resolveWithNewModule qs@6.7.0 checking installable status
+152 http fetch GET 304 https://registry.npmjs.org/setprototypeof 220ms (from cache)
+153 http fetch GET 200 https://registry.npmjs.org/finalhandler 1146ms
+154 http fetch GET 200 https://registry.npmjs.org/utils-merge 182ms
+155 http fetch GET 200 https://registry.npmjs.org/serve-static 447ms
+156 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.2.tgz 227ms
+157 silly pacote range manifest for finalhandler@~1.1.2 fetched in 1382ms
+158 silly resolveWithNewModule finalhandler@1.1.2 checking installable status
+159 http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-1.14.1.tgz 190ms
+160 http fetch GET 200 https://registry.npmjs.org/type-is 446ms
+161 silly pacote version manifest for serve-static@1.14.1 fetched in 648ms
+162 silly resolveWithNewModule serve-static@1.14.1 checking installable status
+163 http fetch GET 200 https://registry.npmjs.org/send 669ms
+164 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 730ms
+165 silly pacote version manifest for safe-buffer@5.1.2 fetched in 926ms
+166 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+167 http fetch GET 200 https://registry.npmjs.org/vary 577ms
+168 http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.6.tgz 797ms
+169 silly pacote range manifest for proxy-addr@~2.0.5 fetched in 1122ms
+170 silly resolveWithNewModule proxy-addr@2.0.6 checking installable status
+171 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 325ms
+172 silly pacote range manifest for type-is@~1.6.18 fetched in 782ms
+173 silly resolveWithNewModule type-is@1.6.18 checking installable status
+174 http fetch GET 200 https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 661ms
+175 http fetch GET 200 https://registry.npmjs.org/send/-/send-0.17.1.tgz 449ms
+176 silly pacote version manifest for utils-merge@1.0.1 fetched in 865ms
+177 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+178 silly pacote version manifest for send@0.17.1 fetched in 1143ms
+179 silly resolveWithNewModule send@0.17.1 checking installable status
+180 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.1.tgz 904ms
+181 silly pacote version manifest for setprototypeof@1.1.1 fetched in 1147ms
+182 silly resolveWithNewModule setprototypeof@1.1.1 checking installable status
+183 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 548ms
+184 silly pacote range manifest for vary@~1.1.2 fetched in 1152ms
+185 silly resolveWithNewModule vary@1.1.2 checking installable status
+186 http fetch GET 200 https://registry.npmjs.org/negotiator 148ms
+187 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz 938ms
+188 silly pacote version manifest for negotiator@0.6.2 fetched in 1098ms
+189 silly resolveWithNewModule negotiator@0.6.2 checking installable status
+190 http fetch GET 200 https://registry.npmjs.org/mime-types 1543ms
+191 verbose stack Error: kill ENOSYS
+191 verbose stack     at process.kill (internal/process/per_thread.js:189:13)
+191 verbose stack     at process.listener (C:\Users\86183\XXX\nodejs\node_global\node_modules\npm\node_modules\signal-exit\index.js:95:15)
+191 verbose stack     at process.emit (events.js:210:5)
+192 verbose cwd C:\Users\86183\Desktop\notebook\vue练习\vue电影项目\miaomiaoserver
+193 verbose Windows_NT 10.0.18362
+194 verbose argv "D:\\Develop\\node.exe" "C:\\Users\\86183\\XXX\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "express"
+195 verbose node v12.12.0
+196 verbose npm  v6.14.2
+197 error code ENOSYS
+198 error syscall kill
+199 error errno ENOSYS
+200 error kill ENOSYS
+201 verbose exit [ 1, true ]
